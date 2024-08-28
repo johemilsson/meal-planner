@@ -1,0 +1,25 @@
+name: Amerikanska pannkakor
+ingredients:
+  - Havremjöl:
+      - quantity: 90
+      - unit: g
+  - Lönnsirap:
+      - quantity: 2
+      - unit: dl
+  - Yoghurt mild naturell:
+      - quantity: 300
+      - unit: g
+  - Ägg:
+      - quantity: 2
+      - unit: 1
+  - Salt:
+      - quantity: 1
+      - unit: tsk
+  - Smör:
+      - quantity: 50
+      - unit: g
+instructions:
+  - Blanda alla torrvaror
+  - Blanda alla blöta varor
+  - Rör om försiktigt
+  - Stek i smör på medelvärme
