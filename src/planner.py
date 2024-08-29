@@ -10,6 +10,8 @@ import random
 random.sample(list, n) # Select n unique items from list
 """
 import os
+import random
+
 
 class Planner:
     def __init__(self):
@@ -19,6 +21,7 @@ class Planner:
     def _get_recipies():
         recipies_dir = os.path.join(
             os.path.dirname(__file__),
+            os.pardir,
             "recipies",
         )
         recipies = [
@@ -27,5 +30,11 @@ class Planner:
 
         return recipies
 
+    def sample_recipies(self, number_of_days):
+        chosen_recipies = random.sample(self.recipies, number_of_days)
+
+        return chosen_recipies
+
 if __name__ == "__main__":
     planner = Planner()
+    my_recipies = planner.sample_recipies(3)
