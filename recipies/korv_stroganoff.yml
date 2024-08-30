@@ -1,0 +1,53 @@
+title: "Korv Stroganoff"
+ingredients:
+  - Falukorv:
+      - amount: 800
+      - unit: g
+  - Gul lök:
+      - amount: 1
+      - unit: st
+  - Smör:
+      - amount: 1
+      - unit: msk
+  - Dijonsenap:
+      - amount: 1
+      - unit: msk
+  - Grov osötad senap:
+      - amount: 1
+      - unit: msk
+  - Söt senap:
+      - amount: 1
+      - unit: msk
+  - Tomatpuré:
+      - amount: 3
+      - unit: msk
+  - Grädde:
+      - amount: 2
+      - unit: dl
+  - Mjölk:
+      - amount: 4
+      - unit: dl
+  - Vetemjöl:
+      - amount: 2
+      - unit: msk
+  - Salt:
+      - amount: 1
+      - unit: tsk
+  - Peppar:
+      - amount: 0.5
+      - unit: tsk
+  - Dill:
+      - amount: 3
+      - unit: msk
+
+instructions:
+  - Skär korven och grönsakerna.
+  - Stek dem i smör och tillsätt tomatpuré.
+  - Häll i grädde, mjölk, salt och peppar.
+  - Låt sjuda och tillsätt persilja innan servering.
+
+time:
+  - amount: 20
+  - unit: min
+servings: 4
+source: "https://www.youtube.com/watch?v=A3bMi5Q3pvw"
