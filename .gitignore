@@ -1,3 +1,8 @@
+# Specific files and folders to app
+.credentials
+.idea/
+**/.token-oauth*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
