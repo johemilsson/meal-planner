@@ -1,6 +1,7 @@
 import os
 import yaml
 
+from src.pdf_generator import create_recipe_pdf
 
 class Recipe:
     def __init__(self):
@@ -32,6 +33,15 @@ class Recipe:
         ingredients_list.remove("Vatten") # TODO: Create a separate list of unneeded ingredients
         return ingredients_list
 
+    def export(self, filename):
+        create_recipe_pdf(
+            self.title,
+            self.ingredients,
+            self.instructions,
+            self.time,
+            self.servings,
+            filename
+        )
 
     def save(self, filename: str, directory=None):
         save_dct = {
@@ -50,3 +60,4 @@ if __name__ == "__main__":
     recipe = Recipe()
     recipe.load("/home/johannes/Projects/Python/meal-planner/recipies/korv_stroganoff.yml")
     ingredients = recipe.get_ingredients()
+    recipe.export("test.pdf")

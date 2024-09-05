@@ -69,7 +69,7 @@ instructions:
     - Häll över skirat smör och servera med gröna ärtor och rårörda lingon.
 
 time:
-  - amount: 1
-  - unit: h
+  amount: 1
+  unit: h
 servings: 4
 source: "https://www.koket.se/havets-wallenbergare-med-potatispure"

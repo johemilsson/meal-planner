@@ -59,7 +59,7 @@ instructions:
     - Servera med pressad potatis och gratinerad torsk.
 
 time:
-  - amount: 35
-  - unit: min
+  amount: 35
+  unit: min
 servings: 4
 source: "https://www.tasteline.com/recept/parmesangratinerad-torskrygg-med-pressad-potatis/"

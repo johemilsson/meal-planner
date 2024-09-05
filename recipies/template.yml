@@ -1,4 +1,4 @@
-title: "Amerikanska pannkakor"
+title: "Template recipe"
 ingredients:
   Smashed potatis:
     - Potatis:
@@ -13,12 +13,14 @@ ingredients:
         unit: tsk
 
 instructions:
-  - Blanda alla torrvaror
-  - Blanda alla blöta varor
-  - Rör om försiktigt
-  - Stek i smör på medelvärme
+  Smashed potatis:
+    - Koka potatisen halvfärdig.
+    - Tryck till på en plåt och grädda i ugn på 225°C i 15-20 min.
+  Sås:
+  - Koka upp mjölken i en kastrull.
+  - Tillsätt salt och rör om.
 time:
-  - amount: 1
-  - unit: h
+  amount: 1
+  unit: h
 servings: 4
 source:

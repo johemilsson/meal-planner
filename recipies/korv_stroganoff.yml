@@ -49,6 +49,10 @@ ingredients:
         unit: dl
 
 instructions:
+  Ris:
+    - Skölj riset noggrannt.
+    - Låt koka upp och låt sedan sjuda i ca 20 min.
+  Korv stroganoff:
   - Mät upp mjölk och grädde och värm i en kastrull.
   - Skär korven och stek i smör i en stor gryta.
   - Hacka lök och stek tillsammans med korven.
@@ -58,7 +62,7 @@ instructions:
   - Låt koka upp och tillsätt hackad dill.
 
 time:
-  - amount: 20
-  - unit: min
+  amount: 20
+  unit: min
 servings: 4
 source: "https://www.youtube.com/watch?v=A3bMi5Q3pvw"
