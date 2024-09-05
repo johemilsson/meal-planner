@@ -1,6 +1,6 @@
 import os
-
 import yaml
+
 
 class Recipe:
     def __init__(self):
@@ -25,9 +25,11 @@ class Recipe:
 
     def get_ingredients(self):
         ingredients_list = set()
-        for dct in self.ingredients:
-            ingredients_list.add(list(dct.keys())[0])
+        for item in self.ingredients.values():
+            for dct in item:
+                ingredients_list.add(list(dct.keys())[0])
 
+        ingredients_list.remove("Vatten") # TODO: Create a separate list of unneeded ingredients
         return ingredients_list
 
 

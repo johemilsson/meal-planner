@@ -1,50 +1,61 @@
-title: "Korv Stroganoff"
+title: "Korv Stroganoff med ris"
 ingredients:
-  - Falukorv:
-      - amount: 800
-      - unit: g
-  - Gul lök:
-      - amount: 1
-      - unit: st
-  - Smör:
-      - amount: 1
-      - unit: msk
-  - Dijonsenap:
-      - amount: 1
-      - unit: msk
-  - Grov osötad senap:
-      - amount: 1
-      - unit: msk
-  - Söt senap:
-      - amount: 1
-      - unit: msk
-  - Tomatpuré:
-      - amount: 3
-      - unit: msk
-  - Grädde:
-      - amount: 2
-      - unit: dl
-  - Mjölk:
-      - amount: 4
-      - unit: dl
-  - Vetemjöl:
-      - amount: 2
-      - unit: msk
-  - Salt:
-      - amount: 1
-      - unit: tsk
-  - Peppar:
-      - amount: 0.5
-      - unit: tsk
-  - Dill:
-      - amount: 3
-      - unit: msk
+  Korv stroganoff:
+    - Falukorv:
+        amount: 800
+        unit: g
+    - Gul lök:
+        amount: 1
+        unit: st
+    - Smör:
+        amount: 1
+        unit: msk
+    - Dijonsenap:
+        amount: 1
+        unit: msk
+    - Grov osötad senap:
+        amount: 1
+        unit: msk
+    - Söt senap:
+        amount: 1
+        unit: msk
+    - Tomatpuré:
+        amount: 3
+        unit: msk
+    - Grädde:
+        amount: 2
+        unit: dl
+    - Mjölk:
+        amount: 4
+        unit: dl
+    - Vetemjöl:
+        amount: 2
+        unit: msk
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Peppar:
+        amount: 0.5
+        unit: tsk
+    - Dill:
+        amount: 3
+        unit: msk
+  Kokt ris:
+    - Ris:
+        amount: 4
+        unit: dl
+    - Vatten:
+        amount: 7.5
+        unit: dl
 
 instructions:
-  - Skär korven och grönsakerna.
-  - Stek dem i smör och tillsätt tomatpuré.
-  - Häll i grädde, mjölk, salt och peppar.
-  - Låt sjuda och tillsätt persilja innan servering.
+  - Mät upp mjölk och grädde och värm i en kastrull.
+  - Skär korven och stek i smör i en stor gryta.
+  - Hacka lök och stek tillsammans med korven.
+  - Tillsätt tomatpuré och låt fräsa tillsammans med korv och lök ett par minuter.
+  - Tillsätt vetemjöl och rör om.
+  - Häll i den varma gräddmjölken.
+  - Låt koka upp och tillsätt hackad dill.
 
 time:
   - amount: 20

@@ -1,0 +1,75 @@
+title: "Havets Wallenbergare med potatispuré"
+ingredients:
+  Wallenbergare:
+    - Torsk:
+        amount: 200
+        unit: g
+    - Lax:
+        amount: 200
+        unit: g
+    - Räkor:
+        amount: 200
+        unit: g
+    - Grädde:
+        amount: 3
+        unit: dl
+    - Ägg:
+        amount: 1
+        unit: st
+    - Panko ströbröd:
+        amount: 2
+        unit: dl
+  Potatispuré:
+    - Potatis:
+        amount: 600
+        unit: g
+    - Mjölk:
+        amount: 1.5
+        unit: dl
+    - Grädde:
+        amount: 1.5
+        unit: dl
+    - Smör:
+        amount: 50
+        unit: g
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Peppar:
+        amount: 1
+        unit: tsk
+  Tillbehör:
+    - Smör, skirat:
+        amount: 100
+        unit: g
+    - Gröna ärtor, kokta:
+        amount: 200
+        unit: g
+    - Rårörda lingon:
+        amount: 1
+        unit: dl
+
+instructions:
+  Wallenbergare:
+    - Lägg fisken i mixer, salta lätt och tillsätt grädde lite åt gången.
+    - Mixa tills smeten är jämn och tillsätt ägg.
+    - Lägg i 100 g av räkorna, låt stå en stund. Krydda med salt och peppar.
+    - Forma till 4 eller 8 biffar, vänd biffarna i panko.
+    - Stek biffarna frasiga på låg temperatur.
+
+  Potatispuré:
+    - Koka potatisen tills den är mjuk.
+    - Pressa potatisen med potatispress.
+    - Tillsätt mjölk, grädde och smör.
+    - Vispa till ett luftigt mos. Smaka av med salt och peppar.
+
+  Servering:
+    - Lägg upp potatispuré på tallrikarna.
+    - Lägg på wallenbergare och strö över resterande räkor.
+    - Häll över skirat smör och servera med gröna ärtor och rårörda lingon.
+
+time:
+  - amount: 1
+  - unit: h
+servings: 4
+source: "https://www.koket.se/havets-wallenbergare-med-potatispure"

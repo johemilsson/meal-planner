@@ -1,0 +1,24 @@
+title: "Amerikanska pannkakor"
+ingredients:
+  Smashed potatis:
+    - Potatis:
+        amount: 400
+        unit: g
+  Sås:
+    - Mjölk:
+        amount: 4
+        unit: dl
+    - Salt:
+        amount: 2
+        unit: tsk
+
+instructions:
+  - Blanda alla torrvaror
+  - Blanda alla blöta varor
+  - Rör om försiktigt
+  - Stek i smör på medelvärme
+time:
+  - amount: 1
+  - unit: h
+servings: 4
+source:
