@@ -76,9 +76,30 @@ class Planner:
             created_sub_task = self.client.task.create(sub_task)
             self.client.task.make_subtask(created_sub_task, parent=created_main_task["id"])
 
+    def create_pdfs(self, recipies):
+        created_pdfs = []
+        for recipe in recipies:
+            recipe_class = Recipe()
+            recipe_path = os.path.join(
+                os.path.dirname(__file__),
+                os.pardir,
+                "recipies",
+                recipe
+            )
+            recipe_class.load(recipe_path)
+            pdf_name = os.path.splitext(recipe)[0] + ".pdf"
+            pdf_path = recipe_class.to_pdf(pdf_name)
+            created_pdfs.append(pdf_path)
+
+        return created_pdfs
+
+
+
 
 if __name__ == "__main__":
     planner = Planner()
     my_recipies = planner.sample_recipies(2)
     ingredients = planner.get_ingredients(my_recipies)
-    planner.upload_ingredients(ingredients)
+    # planner.upload_ingredients(ingredients)
+    pdfs = planner.create_pdfs(my_recipies)
+

@@ -2,6 +2,7 @@
 .credentials
 .idea/
 **/.token-oauth*
+pdfs
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,6 +1,7 @@
 import os
 import yaml
 
+from src import ROOT_DIR
 from src.pdf_generator import create_recipe_pdf
 
 class Recipe:
@@ -30,18 +31,25 @@ class Recipe:
             for dct in item:
                 ingredients_list.add(list(dct.keys())[0])
 
-        ingredients_list.remove("Vatten") # TODO: Create a separate list of unneeded ingredients
+        if "Vatten" in ingredients_list:
+            ingredients_list.remove("Vatten") # TODO: Create a separate list of unneeded ingredients
+
         return ingredients_list
 
-    def export(self, filename):
+    def to_pdf(self, filename):
+        pdfs_dir = os.path.join(ROOT_DIR, "pdfs")
+        os.makedirs(pdfs_dir, exist_ok=True)
+        filepath = os.path.join(pdfs_dir, filename)
         create_recipe_pdf(
             self.title,
             self.ingredients,
             self.instructions,
             self.time,
             self.servings,
-            filename
+            filepath
         )
+
+        return filepath
 
     def save(self, filename: str, directory=None):
         save_dct = {
@@ -60,4 +68,4 @@ if __name__ == "__main__":
     recipe = Recipe()
     recipe.load("/home/johannes/Projects/Python/meal-planner/recipies/korv_stroganoff.yml")
     ingredients = recipe.get_ingredients()
-    recipe.export("test.pdf")
+    recipe.to_pdf("test.pdf")
