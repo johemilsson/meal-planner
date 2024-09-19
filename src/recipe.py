@@ -51,6 +51,36 @@ class Recipe:
 
         return filepath
 
+    def to_md(self):
+
+        # Extract information from the recipe dictionary
+        title = self.title
+        ingredients = self.ingredients
+        instructions = self.instructions
+        time = self.time
+        servings = self.servings
+
+        # Start building the markdown content
+        markdown = f"**Tillagningstid**: {time['amount']} {time['unit']}\n\n"
+        markdown += f"**Portioner**: {servings}\n\n"
+
+        # Add ingredients section
+        markdown += "## Ingredienser:\n"
+        for section, items in ingredients.items():
+            markdown += f"### {section}:\n"
+            for item in items:
+                for name, details in item.items():
+                    markdown += f"- [ ] {name}: {details['amount']} {details['unit']}\n"
+
+        # Add instructions section
+        markdown += "\n## Instruktioner:\n"
+        for section, steps in instructions.items():
+            markdown += f"### {section}:\n"
+            for step in steps:
+                markdown += f"- [ ] {step}\n"
+
+        return markdown
+
     def save(self, filename: str, directory=None):
         save_dct = {
             "name": self.title,
