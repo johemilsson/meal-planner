@@ -1,0 +1,52 @@
+title: "Chili con carne"
+ingredients:
+  Chili con carne:
+    - Kidneybönor:
+        amount: 800
+        unit: g
+    - Gul lök:
+        amount: 2
+        unit: st
+    - Grön paprika:
+        amount: 1
+        unit: st
+    - Blandfärs:
+        amount: 500
+        unit: g
+    - Vitlök:
+        amount: 2
+        unit: st
+    - Chilipulver:
+        amount: 1
+        unit: tsk
+    - Krossade tomater:
+        amount: 800
+        unit: g
+    - Salt:
+        amount:
+        unit:
+    - Peppar:
+        amount:
+        unit:
+    - Olja:
+        amount:
+        unit:
+    - Chilipulver:
+        amount:
+        unit:
+    - Paprikapulver:
+        amount:
+        unit:
+
+instructions:
+  Bönfärsgryta:
+    - Fräs lök och paprika i olja i en gryta.
+    - Bryn färsen, smula den och lägg i. Krydda.
+    - Tillsätt övriga ingredienser utom bönorna, koka cirka 20-30 minuter.
+    - Häll i bönorna de sista 10 minuterna och smaka av och tillsätt eventuellt mer kryddor.
+
+time:
+  amount: 30
+  unit: min
+servings: 8
+source: "https://www.koket.se/chili-con-carne-4"

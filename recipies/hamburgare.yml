@@ -1,0 +1,71 @@
+title: "Hamburgare med tillbehör"
+ingredients:
+  Hamburgare:
+    - Nötfärs:
+        amount: 400
+        unit: g
+    - Salt:
+        amount: 0.5
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+    - Hamburgerbröd:
+        amount: 4
+        unit: st
+    - Gul lök:
+        amount: 1
+        unit: st
+    - Isbergssallad:
+        amount: 1
+        unit: huvud
+    - Tomat:
+        amount:
+        unit:
+    - Gurka:
+        amount:
+        unit:
+    - Inlagd gurka:
+        amount:
+        unit:
+    - Bostongurka:
+        amount:
+        unit:
+    - Hamburgerdressing:
+        amount:
+        unit:
+    - Majonnäs:
+        amount:
+        unit:
+    - Ketchup:
+        amount:
+        unit:
+    - Senap:
+        amount:
+        unit:
+  Dressing:
+    - Gräddfil:
+        amount: 0.5
+        unit: dl
+    - Majonnäs:
+        amount: 0.5
+        unit: dl
+    - Chilisås:
+        amount: 0.5
+        unit: dl
+    - Bostongurka:
+        amount: 3
+        unit: msk
+
+instructions:
+  Hamburgare:
+    - Blanda samman ingredienserna till dressingen. Ställ svalt.
+    - Forma färsen till fyra biffar, ca 1–1.5 cm tjocka. Krydda biffarna med salt och peppar.
+    - Grilla på träkolsgrill eller i grillpanna ca 3 minuter på varje sida. När köttsaften börjar tränga fram på ytan är burgaren rosa inuti. Låt den ligga kvar lite till om du vill ha den genomstekt.
+    - Servera med ett hamburgerbröd till var och en. Lägg upp tillbehören så att alla kan välja sina favoriter.
+
+time:
+  amount: 20
+  unit: min
+servings: 4
+source: "https://www.koket.se/grillade-hamburgare"

@@ -1,0 +1,51 @@
+title: "Kycklinggryta med curry"
+ingredients:
+  Kycklinggryta:
+    - Kycklingfilé:
+        amount: 700
+        unit: g
+    - Röda paprikor:
+        amount: 2
+        unit: st
+    - Gula lökar:
+        amount: 2
+        unit: st
+    - Smör:
+        amount: 2
+        unit: msk
+    - Curry:
+        amount: 3
+        unit: msk
+    - Paprikapulver:
+        amount: 1
+        unit: msk
+    - Vispgrädde:
+        amount: 5
+        unit: dl
+    - Crème fraîche:
+        amount: 2
+        unit: dl
+    - Apelsinjuice, koncentrerad:
+        amount: 2
+        unit: msk
+    - Kinesisk soja:
+        amount: 2
+        unit: msk
+    - Svartpeppar:
+        amount: 2
+        unit: krm
+
+instructions:
+  Kycklinggryta:
+    - Skär kycklingfiléerna i bitar.
+    - Skölj, kärna ur och skär paprikan i bitar.
+    - Skala och skär löken i klyftor.
+    - Bryn kycklingen i smör i en stor gryta.
+    - Tillsätt paprika, lök, curry och paprikapulver och låt fräsa cirka 3 minuter.
+    - Tillsätt vispgrädde, crème fraîche, apelsinjuice, soja och peppar. Låt bli varmt och se till att kycklingen är genomstekt.
+
+time:
+  amount: 30
+  unit: min
+servings: 6
+source: "https://www.koket.se/anna-hallen/soppor-och-grytor/kyckling-och-fagel/kycklinggryta-med-curry"
