@@ -1,0 +1,77 @@
+title: "Catarinas lyxiga fiskgratäng"
+ingredients:
+  Fiskgratäng:
+    - Torskfilé:
+        amount: 600
+        unit: g
+    - Smör:
+        amount: 25
+        unit: g
+    - Vetemjöl:
+        amount: 3
+        unit: msk
+    - Fiskfond:
+        amount: 0.5
+        unit: msk
+    - Vatten:
+        amount: 2
+        unit: dl
+    - Mjölk:
+        amount: 1
+        unit: dl
+    - Vispgrädde:
+        amount: 2
+        unit: dl
+    - Dill:
+        amount: 1
+        unit: msk
+    - Citron:
+        amount: 0.5
+        unit: st
+    - Salt:
+        amount:
+        unit:
+    - Svartpeppar:
+        amount:
+        unit:
+  Duchessepotatis:
+    - Potatis:
+        amount: 800
+        unit: g
+    - Smör:
+        amount: 25
+        unit: g
+    - Vispgrädde:
+        amount: 0.75
+        unit: dl
+    - Mjölk:
+        amount: 1.5
+        unit: dl
+    - Äggulor:
+        amount: 2
+        unit: st
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Vitpeppar:
+        amount: 2
+        unit: krm
+instructions:
+  Fiskgratäng:
+    - Skala och koka potatisen mjuk i saltat vatten.
+    - Skär torskfilén i lite mindre bitar om de är stora. Salta och låt torsken ligga och rimma medan resten förbereds.
+    - Smält smöret i en kastrull, ta från värmen och rör ner mjölet. Tillsätt fond, vatten och mjölk. Sätt tillbaka kastrullen på värmen, vispa ordentligt så det går ihop till jämn sås.
+    - Tillsätt grädden när såsen har tjocknat. Låt småkoka några minuter.
+    - Vänd ner finhackad dill och finrivet citronskal. Smaka upp med en skvätt citronsaft, salt och nymalen svartpeppar. Ställ åt sidan.
+    - Sätt ugnen på 180-190 grader.
+    - Häll av vattnet från potatisen. Värm grädde och smör.
+    - Pressa potatisen genom en potatispress. Tillsätt smör- och gräddblandningen och rör till ett slätt mos. Rör i äggulorna. Tillsätt mjölken lite i taget tills du får en bra konsistens, den ska inte vara för lös men inte heller för fast. Smaka av med salt och vitpeppar.
+    - Spritsa moset längs med kanterna i en ugnssäker form. Lämna mitten tom där fisken skall ligga.
+    - Lägg fiskbitarna i mitten. Häll såsen över fisken. Tillaga i ugnen i ca 25 minuter tills gratängen fått lite färg i mitten.
+    - Toppa den färdiga fiskgratängen med räkor och dekorera med dill. Bjud med en härlig sallad till.
+
+time:
+  amount: 40
+  unit: min
+servings: 4
+source: "https://www.koket.se/catarinas-lyxiga-fiskgratang"

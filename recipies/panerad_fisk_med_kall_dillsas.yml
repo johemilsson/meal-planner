@@ -1,0 +1,92 @@
+title: "Panerad fisk med kall dillsås"
+ingredients:
+  Panerad fisk:
+    - Torskfilé:
+        amount: 4
+        unit: st
+    - Pankoströbröd:
+        amount: 2
+        unit: dl
+    - Ägg:
+        amount: 1
+        unit: st
+    - Vetemjöl:
+        amount: 0.75
+        unit: dl
+    - Citronsaft:
+        amount: 1
+        unit: msk
+    - Örtsalt:
+        amount: 1
+        unit: tsk
+  Potatismos:
+    - Potatis:
+        amount: 800
+        unit: g
+    - Smör:
+        amount: 50
+        unit: g
+    - Mjölk:
+        amount: 0.5
+        unit: dl
+    - Grädde:
+        amount: 0.5
+        unit: dl
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+  Kall dillsås:
+    - Gräddfil:
+        amount: 3
+        unit: dl
+    - Filmjölk:
+        amount: 1
+        unit: dl
+    - Majonäs:
+        amount: 0.5
+        unit: dl
+    - Dill:
+        amount: 1
+        unit: kruka
+    - Bostongurka:
+        amount: 1
+        unit: dl
+    - Citronjuice:
+        amount: 1
+        unit: msk
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 0.5
+        unit: krm
+    - Socker:
+        amount: 1
+        unit: tsk
+
+instructions:
+  Potatismos:
+    - Skala potatisen.
+    - Koka potatisen tills den är mjuk.
+    - Mosa potatisen tillsammans med smöret.
+    - Häll i mjölk och grädde.
+    - Rör om till potatismoset är fluffigt.
+    - Smaka av med salt och peppar.
+  Kall dillsås:
+    - Blanda ihop allting och ställ in i kylen.
+  Panerad fisk:
+    - Tina fisken om du använder fryst fisk.
+    - Torka av filéerna med hushållspapper. Salta och peppra dem runtom.
+    - Vispa upp ägget med en gaffel tillsammans med citronjuice i en djup tallrik.
+    - Lägg pankoströbröd och vetemjöl i separata tallrikar.
+    - Vänd fiskfiléerna i mjöl, doppa i uppvispat ägg och sedan i pankoströbröd.
+    - Stek fisken i ca 5-7 minuter på varje sida.
+
+time:
+  amount: 30
+  unit: min
+servings: 4
+source: "https://www.koket.se/panerad-fisk-med-kall-dillsas"

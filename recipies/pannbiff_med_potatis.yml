@@ -1,0 +1,76 @@
+title: "Pannbiff med potatis och gräddsås"
+ingredients:
+  Pannbiff:
+    - Blandfärs:
+        amount: 400
+        unit: g
+    - Ägg:
+        amount: 1
+        unit: st
+    - Havregryn:
+        amount: 0.75
+        unit: dl
+    - Mjölk:
+        amount: 1.5
+        unit: dl
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+    - Smör:
+        amount:
+        unit:
+  Tillbehör:
+    - Potatis:
+        amount: 800
+        unit: g
+    - Lingonsylt:
+        amount:
+        unit:
+  Brunsås:
+    - Smör:
+        amount: 2
+        unit: msk
+    - Vetemjöl:
+        amount: 2
+        unit: msk
+    - Vatten:
+        amount: 4
+        unit: dl
+    - Oxfond:
+        amount: 1.5
+        unit: msk
+    - Grädde:
+        amount: 3
+        unit: msk
+    - Soja:
+        amount: 2
+        unit: tsk
+    - Salt:
+        amount:
+        unit:
+    - Peppar:
+        amount:
+        unit:
+
+instructions:
+  Pannbiff:
+    - Blanda havregryn och mjölk, låt svälla i 5 minuter.
+    - Tillsätt blandfärs, lök, ägg, salt och peppar. Blanda ordentligt och forma till biffar.
+    - Stek biffarna i smör tills de är genomstekta.
+  Tillbehör:
+    - Koka potatisen tills den är mjuk.
+    - Servera biffarna med kokt potatis, lingonsylt och gräddsås.
+  Brunsås:
+    - Smält smöret i en kastrull. Vispa ner mjölet och låt det fräsa en minut.
+    - Tillsätt vatten och oxfond lite i taget under vispning för att undvika klumpar.
+    - Häll i grädden och låt sjuda i cirka 5 minuter.
+    - Smaksätt med soja, salt och peppar efter smak. Låt såsen koka upp igen och tjockna något.
+
+time:
+  amount: 45
+  unit: min
+servings: 4
+source: "chatgpt.com"

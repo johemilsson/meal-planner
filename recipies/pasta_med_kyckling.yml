@@ -1,0 +1,44 @@
+title: "Pasta med kyckling"
+ingredients:
+  Pasta och kyckling:
+    - Kycklingfilé:
+        amount: 400
+        unit: g
+    - Pasta:
+        amount: 300
+        unit: g
+    - Vitlök:
+        amount: 2
+        unit: klyftor
+    - Grädde:
+        amount: 2
+        unit: dl
+    - Olivolja:
+        amount: 2
+        unit: msk
+    - Parmesan:
+        amount: 50
+        unit: g
+    - Salt:
+        amount:
+        unit:
+    - Svartpeppar:
+        amount:
+        unit:
+    - Färsk basilika:
+        amount:
+        unit:
+
+instructions:
+  Pasta med kyckling:
+    - Koka pastan enligt anvisningarna på förpackningen.
+    - Skär kycklingen i bitar och stek den i olivolja tillsammans med vitlök.
+    - Tillsätt grädde och låt sjuda tills kycklingen är genomstekt.
+    - Blanda pastan med kycklingen och såsen.
+    - Tillsätt parmesan, salt, peppar och färsk basilika innan servering.
+
+time:
+  amount: 30
+  unit: min
+servings: 4
+source: "chatgpt.com"

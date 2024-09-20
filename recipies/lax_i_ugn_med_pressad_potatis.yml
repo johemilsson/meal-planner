@@ -1,0 +1,64 @@
+title: "Salmón al horno con salsa de hierbas"
+ingredients:
+  Lax:
+    - Laxfilé:
+        amount: 1
+        unit: kg
+    - Citron:
+        amount: 0.5
+        unit: st
+    - Citronpeppar:
+        amount: 0.25
+        unit: tsk
+    - Sal:
+        amount:
+        unit:
+  Örtsås:
+    - Vatten:
+        amount: 2
+        unit: dl
+    - Creme fraiche:
+        amount: 1
+        unit: dl
+    - Fiskfond:
+        amount: 0.5
+        unit: msk
+    - Grädde:
+        amount: 1.5
+        unit: dl
+    - Dill:
+        amount: 2
+        unit: msk
+    - Gräslök:
+        amount: 2
+        unit: msk
+    - Dragon:
+        amount: 0.5
+        unit: tsk
+    - Maizena:
+        amount: 1
+        unit: msk
+    - Sal:
+        amount:
+        unit:
+    - Pimienta:
+        amount:
+        unit:
+
+instructions:
+  Lax:
+    - Värm ugnen till 225°C.
+    - Lägg laxen i en ugnsfast form.
+    - Häll citronjuice över laxen, salta och peppra med citronpeppar.
+    - Grädda laxen i ugnen i ca 15 minuter eller tills innertemperaturen är ca 50°C (låt sedan laxen vila några minuter).
+  Örtsås:
+    - Koka upp vatten och creme fraiche.
+    - Tillsätt fiskfonden.
+    - Tillsätt grädde, dill, gräslök och låt koka upp.
+    - Red såsen med maizena.
+    - Smaka av med salt och peppar.
+time:
+  amount: 30
+  unit: min
+servings: 4
+source: ""

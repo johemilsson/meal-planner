@@ -1,0 +1,65 @@
+title: "En perfekt biff med bea"
+ingredients:
+  Biff:
+    - Ryggbiff (med kappa):
+        amount: 500
+        unit: g
+    - Smör:
+        amount: 1
+        unit: rejäl klick
+    - Vitlök:
+        amount: 2
+        unit: klyftor
+    - Färska örter:
+        amount:
+        unit:
+    - Salt:
+        amount:
+        unit:
+    - Svartpeppar:
+        amount:
+        unit:
+  Snabb bearnaisesås:
+    - Äggulor:
+        amount: 2
+        unit: st
+    - Salt:
+        amount: 0.5
+        unit: tsk
+    - Vitpeppar:
+        amount: 1
+        unit: nypa
+    - Rödvinsvinäger:
+        amount: 2
+        unit: tsk
+    - Worcestersås:
+        amount: 1
+        unit: tsk
+    - Dragon, torkad:
+        amount: 0.5
+        unit: tsk
+    - Cayennepeppar:
+        amount: 0.5
+        unit: krm
+    - Vatten:
+        amount: 2
+        unit: tsk
+    - Smör:
+        amount: 100
+        unit: g
+
+instructions:
+  Perfekt stekt biff:
+    - Hetta upp en stekpanna riktigt varm. Lägg biffen med fettkappan nedåt och låt fettet smälta.
+    - Vänd köttet var 30:e sekund tills det är jämnt brynt runtom.
+    - Tillsätt smör, vitlök, och örter. Fortsätt steka och ös köttet med smöret tills önskad stekgrad är nådd.
+    - Låt köttet vila öppet minst 10 minuter innan servering.
+  Snabb bearnaisesås:
+    - Vispa ihop alla ingredienser förutom smöret på medelhög värme tills det tjocknar.
+    - Tillsätt smöret under vispning och rör ihop till en jämn sås.
+
+time:
+  amount: 45
+  unit: min
+servings: 2
+source: "https://www.koket.se/en-perfekt-biff-med-bea"

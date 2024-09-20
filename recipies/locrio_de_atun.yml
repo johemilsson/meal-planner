@@ -1,0 +1,50 @@
+title: "Locrio de tonfisk"
+ingredients:
+  Locrio:
+    - Tonfisk:
+        amount: 2
+        unit: burkar
+    - Ris:
+        amount: 4
+        unit: dl
+    - Lök:
+        amount: 1
+        unit: st
+    - Paprika:
+        amount: 1
+        unit: st
+    - Vitlök:
+        amount: 2
+        unit: klyftor
+    - Tomat:
+        amount: 1
+        unit: st
+    - Olja:
+        amount: 2
+        unit: msk
+    - Vatten eller buljong:
+        amount: 8
+        unit: dl
+    - Oregano:
+        amount: 1
+        unit: tsk
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+
+instructions:
+  Locrio:
+    - Fräs lök, paprika och vitlök i olja tills de mjuknar.
+    - Tillsätt tonfisk, oregano, salt och peppar. Låt koka några minuter.
+    - Tillsätt ris och vatten (eller buljong), koka upp.
+    - Låt sjuda tills vattnet absorberats, täck sedan och låt sjuda på låg värme i 15 minuter.
+    - Rör om och servera.
+
+time:
+  amount: 40
+  unit: min
+servings: 4
+source: ""

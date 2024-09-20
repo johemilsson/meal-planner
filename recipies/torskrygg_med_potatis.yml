@@ -1,0 +1,68 @@
+title: "Torskrygg med parmesanhollandaise"
+ingredients:
+  Torskrygg:
+    - Torskrygg:
+        amount: 1.5
+        unit: kg
+    - Salt:
+        amount:
+        unit:
+  Kokt potatis:
+    - Potatis:
+        amount: 800
+        unit: g
+    - Salt:
+        amount:
+        unit:
+  Parmesanhollandaise:
+    - Äggulor:
+        amount: 4
+        unit: st
+    - Smör:
+        amount: 200
+        unit: g
+    - Räkor:
+        amount: 200
+        unit: g
+    - Parmesanost:
+        amount: 2
+        unit: msk
+    - Cayennepeppar:
+        amount:
+        unit:
+    - Citronsaft:
+        amount:
+        unit:
+    - Dijonsenap:
+        amount:
+        unit:
+    - Vitvinsvinäger:
+        amount:
+        unit:
+    - Pepparrot:
+        amount:
+        unit:
+    - Salt:
+        amount:
+        unit:
+    - Peppar:
+        amount:
+        unit:
+
+instructions:
+  Torskrygg:
+    - Lägg torsken i en kastrull och täck med vatten. Ta ur torsken, koka upp vattnet med 4-5 msk salt.
+    - Lägg i torsken, koka upp i 5-10 sekunder, täck med lock och låt stå i 6-7 minuter.
+  Parmesanhollandaise:
+    - Smält smöret. Vispa äggulor med lite vatten och citronsaft tills de blir fasta.
+    - Tillsätt dijonsenap och vitvinsvinäger. Vispa på svag värme.
+    - När smör och äggulor har samma temperatur, vispa försiktigt i smöret.
+    - Smaksätt med salt, peppar, parmesan, cayennepeppar och till sist räkorna.
+  Tillbehör:
+    - Servera torskryggen med kokt potatis och riven pepparrot.
+
+time:
+  amount: 30
+  unit: min
+servings: 4
+source: "https://www.koket.se/erik-lallerstedt"

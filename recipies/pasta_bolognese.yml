@@ -1,0 +1,57 @@
+title: "Pasta Bolognese"
+ingredients:
+  Bolognese:
+    - Blandfärs:
+        amount: 400
+        unit: g
+    - Gula lökar:
+        amount: 1
+        unit: st
+    - Morot:
+        amount: 1
+        unit: st
+    - Vitlök:
+        amount: 2
+        unit: klyftor
+    - Krossade tomater:
+        amount: 400
+        unit: g
+    - Tomatpuré:
+        amount: 2
+        unit: msk
+    - Oxfond:
+        amount: 1
+        unit: msk
+    - Olivolja:
+        amount: 1
+        unit: msk
+    - Salt:
+        amount:
+        unit:
+    - Peppar:
+        amount:
+        unit:
+    - Basilika:
+        amount:
+        unit:
+  Pasta:
+    - Spaghetti:
+        amount: 300
+        unit: g
+
+instructions:
+  Bolognese:
+    - Stek löken och vitlöken i olivolja tills de är mjuka.
+    - Tillsätt blandfärs och bryn tills den är genomstekt.
+    - Tillsätt morot, krossade tomater, tomatpuré och oxfond.
+    - Krydda med salt, peppar och låt sjuda i 20 minuter.
+    - Avsluta med färsk basilika innan servering.
+  Pasta:
+    - Koka pastan enligt anvisningarna på förpackningen.
+    - Servera pastan med bolognese-såsen.
+
+time:
+  amount: 30
+  unit: min
+servings: 4
+source: "chatgpt.com"
