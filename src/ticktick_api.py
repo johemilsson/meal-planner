@@ -1,5 +1,6 @@
 import os
 import yaml
+import secrets
 from ticktick.oauth2 import OAuth2        # OAuth2 Manager
 from ticktick.api import TickTickClient   # Main Interface
 
@@ -14,8 +15,9 @@ auth_client = OAuth2(client_id=credentials["client-id"],
                      client_secret=credentials["client-secret"],
                      redirect_uri="http://127.0.0.1:8080")
 
-USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0"
-X_DEVICE_ = '{"platform":"web","os":"OS X","device":"Firefox 123.0","name":"unofficial api!","version":4531,' \
+USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:95.0) Gecko/20100101 Firefox/95.0"
+X_DEVICE_ = '{"platform":"web","os":"OS X","device":"Firefox 95.0","name":"unofficial api!","version":4531,' \
+                '"id":"6490' + secrets.token_hex(10) + '","channel":"website","campaign":"","websocket":""}'
 
 
 def new_login(self, username, password):

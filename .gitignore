@@ -1,7 +1,8 @@
 # Specific files and folders to app
 .credentials
 .idea/
-**/.token-oauth*
+src/.token-oauth.bak
+**/.token-oauth
 pdfs
 
 # Byte-compiled / optimized / DLL files

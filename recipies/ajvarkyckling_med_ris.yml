@@ -1,0 +1,67 @@
+title: "Kyckling med ajvarsås"
+ingredients:
+  Kyckling:
+    - Kycklinglårfilé:
+        amount: 600
+        unit: g
+    - Olja:
+        amount: 2
+        unit: msk
+    - Salt:
+        amount:
+        unit: efter smak
+    - Peppar:
+        amount:
+        unit: efter smak
+  Ajvarsås:
+    - Lätt crème fraiche:
+        amount: 2
+        unit: dl
+    - Ajvar relish:
+        amount: 1.5
+        unit: dl
+    - Lagrad ost (riven):
+        amount: 1
+        unit: dl
+    - Vitlöksklyfta (riven):
+        amount: 1
+        unit: st
+    - Salt:
+        amount: 0.5
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+    - Panko:
+        amount: 1
+        unit: dl
+    - Olja:
+        amount: 2
+        unit: msk
+    - Hackad persilja (fryst):
+        amount: 2
+        unit: msk
+  Tillbehör:
+    - Gröna bönor:
+        amount: 500
+        unit: g
+  Ris:
+    - Ris:
+        amount: 4
+
+instructions:
+  Kyckling:
+    - Sätt ugnen på 225°C.
+    - Bryn kycklinglårfiléerna hastigt i olja, krydda med salt och peppar. Lägg i en ugnsform.
+  Ajvarsås:
+    - Blanda crème fraiche, ajvar relish, ost, vitlök, salt och peppar. Bred över kycklingen.
+    - Blanda panko med olja och persilja, strö över kycklingen.
+    - Gratinera i ca 25 minuter.
+  Till servering:
+    - Servera med kokta gröna bönor och ris.
+
+time:
+  amount: 45
+  unit: min
+servings: 4
+source: "https://www.ica.se/recept/kyckling-med-ajvartacke-722540/"

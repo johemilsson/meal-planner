@@ -131,7 +131,7 @@ class Planner:
 
 if __name__ == "__main__":
     planner = Planner()
-    my_recipies = planner.sample_recipies(5)
+    my_recipies = planner.sample_recipies()
     ingredients = planner.get_ingredients(my_recipies)
     planner.upload_ingredients(ingredients)
     planner.upload_recipies(my_recipies)

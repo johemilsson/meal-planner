@@ -1,0 +1,67 @@
+title: "Laxlasagne"
+ingredients:
+  Lax:
+    - Kallrökt lax:
+        amount: 400
+        unit: g
+    - Lasagneplattor:
+        amount: 200
+        unit: g
+    - Babyspenat:
+        amount: 375
+        unit: g
+    - Ost (riven):
+        amount: 2
+        unit: dl
+    - Salt:
+        amount: 1
+        unit: krm
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+    - Färsk timjan:
+        amount: 1
+        unit: kruka
+
+  Sås:
+    - Smör:
+        amount: 2.5
+        unit: msk
+    - Schalottenlök:
+        amount: 5
+        unit: msk
+    - Vitlöksklyfta:
+        amount: 2
+        unit: st
+    - Vitt vin:
+        amount: 4.5
+        unit: dl
+    - Fiskfond:
+        amount: 2
+        unit: msk
+    - Crème fraiche:
+        amount: 5
+        unit: dl
+    - Cayennepeppar:
+        amount: 1
+        unit: krm
+    - Salt:
+        amount: 0.5
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+
+instructions:
+  - Sätt ugnen på 225°C.
+  - Skiva laxen i lagom tjocka skivor 0,5-1 cm.
+  - Smörj en ugnsfast form och lägg babyspenat i botten.
+  - Lägg på lasagneplattorna, häll över en tredjedel av såsen och lägg lax ovanpå. Peppra och strö över timjan.
+  - Nytt lager babyspenat, plattor, sås, lax, timjan och peppar varvas. Lasagneplattor överst. Häll på såsen och strö över osten.
+  - Grädda på 225 grader i ca 20 min, tills plattorna är mjuka.
+
+time:
+  amount: 45
+  unit: min
+servings: 4
+source: "https://www.koket.se/laxlasagne-med-timjan-och-babyspenat"
