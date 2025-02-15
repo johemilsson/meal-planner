@@ -1,8 +1,8 @@
 import os
 import yaml
 
-from src import ROOT_DIR
-from src.pdf_generator import create_recipe_pdf
+from constants import ROOT_DIR
+from pdf_generator import create_recipe_pdf
 
 class Recipe:
     def __init__(self):

@@ -13,8 +13,8 @@ import os
 import random
 import datetime
 
-from src.recipe import Recipe
-from src.ticktick_api import get_client
+from recipe import Recipe
+from ticktick_api import get_client
 
 class Planner:
     def __init__(self):

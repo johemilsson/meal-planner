@@ -53,12 +53,15 @@ ingredients:
         unit: krm
 
 instructions:
-  - Sätt ugnen på 225°C.
-  - Skiva laxen i lagom tjocka skivor 0,5-1 cm.
-  - Smörj en ugnsfast form och lägg babyspenat i botten.
-  - Lägg på lasagneplattorna, häll över en tredjedel av såsen och lägg lax ovanpå. Peppra och strö över timjan.
-  - Nytt lager babyspenat, plattor, sås, lax, timjan och peppar varvas. Lasagneplattor överst. Häll på såsen och strö över osten.
-  - Grädda på 225 grader i ca 20 min, tills plattorna är mjuka.
+  Lasagne:
+    - Sätt ugnen på 225°C.
+    - Skiva laxen i lagom tjocka skivor 0,5-1 cm.
+    - Smörj en ugnsfast form och lägg babyspenat i botten.
+    - Lägg på lasagneplattorna, häll över en tredjedel av såsen och lägg lax ovanpå. Peppra och strö över timjan.
+    - Nytt lager babyspenat, plattor, sås, lax, timjan och peppar varvas. Lasagneplattor överst. Häll på såsen och strö över osten.
+    - Grädda på 225 grader i ca 20 min, tills plattorna är mjuka.
+
+  Sås:
 
 time:
   amount: 45

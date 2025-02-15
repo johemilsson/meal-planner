@@ -1,0 +1,32 @@
+title: "Grön ärtsoppa"
+ingredients:
+  Soppa:
+    - Gröna ärtor:
+        amount: 400
+        unit: g
+    - Gul lök:
+        amount: 1
+        unit: st
+    - Vitt vin:
+        amount: 2
+        unit: dl
+    - Hönsbuljong:
+        amount: 8
+        unit: dl
+    - Vispgrädde:
+        amount: 2
+        unit: dl
+
+instructions:
+  Soppa:
+    - Skala och finhacka löken. Fräs löken i en stor klick smör tills den är helt mjuk, men utan att ta färg. Slå över vin och låt koka ihop under några minuter.
+    - Slå över buljongen och tillsätt de frysta ärtorna. Låt koka upp, tillsätt sedan grädden och koka upp på nytt.
+    - Mixa soppan helt slät och fin med en stavmixer och smaka av med salt.
+    - Vispa upp grädden lätt och smaka av med pepparrot, rivet citronskal och lite salt.
+    - Toppa soppan med pepparrotsgrädden och några kvistar dill. Servera gärna med en skiva rostat surdegsbröd.
+
+time:
+  amount: 20
+  unit: min
+servings: 4
+source:

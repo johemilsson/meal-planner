@@ -1,0 +1,45 @@
+title: "Potatis och morotssoppa"
+ingredients:
+    Soppa:
+    - Potatis:
+        amount: 250
+        unit: g
+    - Morötter:
+        amount: 250
+        unit: g
+    - Vitlök:
+        amount: 1
+        unit: klyfta
+    - Smör: 
+        amount: 1
+        unit: msk
+    - Grönsaksbuljong:
+        amount: 9
+        unit: dl
+    - Vispgrädde:
+        amount: 2.5
+        unit: dl
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Vitpeppar:
+        amount: 1
+        unit: krm
+    - Ingefära:
+        amount: 1
+        unit: msk 
+    - Persilja:
+        amount: 1
+        unit: dl
+
+instructions:
+    Soppa:
+    - Skala och skiva potatis och morötter. Skala och finhacka vitlöken. Stek den glansig i smör i en kastrull. Häll i rotfruktsbitarna och låt dem fräsa med utan att ta färg.
+    - Häll i buljongen och sjud ca 15 min tills potatisen är mjuk. Mixa till puré.
+    - Tillsätt grädde och koka upp soppan. Smaka av med salt, peppar och ingefära.
+    - Strö över hackad persilja. Servera gärna med varm ostsmörgås.
+time:
+  amount: 30
+  unit: min
+servings: 4
+source: "https://recept.se/recept/potatis-och-morotssoppa-med-ingefara"

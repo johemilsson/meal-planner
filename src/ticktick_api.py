@@ -4,7 +4,7 @@ import secrets
 from ticktick.oauth2 import OAuth2        # OAuth2 Manager
 from ticktick.api import TickTickClient   # Main Interface
 
-from src import ROOT_DIR
+from constants import ROOT_DIR
 
 
 credentials_file = os.path.join(ROOT_DIR, ".credentials")
