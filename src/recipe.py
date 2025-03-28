@@ -36,6 +36,16 @@ class Recipe:
 
         return ingredients_list
 
+    def to_dict(self):
+        return {
+            "title": self.title,
+            "ingredients": self.ingredients,
+            "instructions": self.instructions,
+            "time": self.time,
+            "servings": self.servings,
+            "source": self.source
+        }
+    
     def to_pdf(self, filename):
         pdfs_dir = os.path.join(ROOT_DIR, "pdfs")
         os.makedirs(pdfs_dir, exist_ok=True)
@@ -96,6 +106,6 @@ class Recipe:
 
 if __name__ == "__main__":
     recipe = Recipe()
-    recipe.load("/home/johannes/Projects/Python/meal-planner/recipies/korv_stroganoff.yml")
+    recipe.load("/home/johannes/Projects/Python/meal-planner/recipies/sunday/korv_stroganoff.yml")
     ingredients = recipe.get_ingredients()
-    recipe.to_pdf("test.pdf")
+    print(recipe.to_pdf("test.pdf"))

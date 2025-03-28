@@ -1,0 +1,56 @@
+title: "Lentejas con chorizo"
+ingredients:
+  Soppa:
+    - Linser:
+        amount: 350
+        unit: g
+    - Morötter:
+        amount: 1
+        unit: st
+    - Lök:
+        amount: 0.5
+        unit: st
+    - Tomat:
+        amount: 1
+        unit: st
+    - Potatis:
+        amount: 1
+        unit: st
+    - Kycklingbuljongtärning:
+        amount: 1
+        unit: st
+    - Lagerblad:
+        amount: 1
+        unit: st
+    - Paprika:
+        amount: 1
+        unit: st
+    - Olivolja:
+        amount: 2
+        unit: msk
+    - Vitlök:
+        amount: 2
+        unit: klyftor
+    - Chorizo:
+        amount: 100
+        unit: g
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+
+instructions:
+  - Finhacka morot, lök, tomat och vitlök, fräs i en katstrull.
+  - Skär potatisen i små tärningar och tillsätt i grytan.
+  - Tillsätt linser, buljongtärning, lagerblad, paprika, olivolja och vatten.
+  - Låt koka i 45 minuter på låg värme.
+  - Skär chorizon i små bitar och stek i en stekpanna.
+  - Tillsätt chorizon och paprikan i grytan och låt koka i ytterligare 10 minuter.
+  - Smaka av med salt och peppar.
+time:
+  amount: 75
+  unit: min
+servings: 4
+source: "https://www.directoalpaladar.com/recetas-de-legumbres-y-verduras/lentejas-chorizo-receta-guiso-que-todos-disfrutaran-legumbres"
