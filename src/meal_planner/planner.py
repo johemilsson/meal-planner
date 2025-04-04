@@ -24,17 +24,21 @@ class Planner:
 
 
     def _get_recipies(self):
-        recipies_dir = os.path.join(
-            os.path.dirname(__file__),
-            os.pardir,
-            "recipies",
+        recipies_dir = os.path.abspath(
+            os.path.join(
+                os.path.dirname(__file__),
+                os.pardir,
+                "recipies",
+            )
         )
         
-        recipies = {}
-
-        for weekday in self.weekdays:
-            weekday_dir = os.path.join(recipies_dir, weekday)
-            recipies[weekday] = [os.path.join(weekday_dir, recipe) for recipe in os.listdir(weekday_dir) if recipe.endswith(".yml")]
+        recipies = []
+        for i in range(len(self.weekdays)):
+            weekday_dir = os.path.join(recipies_dir, str(i))
+            recipies.append(
+                [os.path.join(weekday_dir, recipe) for recipe in os.listdir(weekday_dir) if recipe.endswith(".yml")]
+                )
+                
         
         return recipies
 
@@ -43,12 +47,10 @@ class Planner:
             self.client = get_client()
 
     def sample_recipies(self):
-        chosen_recipies = {}
-        for weekday in self.recipies:
-            recipe_file = random.choice(self.recipies[weekday])
-            recipe = Recipe()
-            recipe.load(recipe_file)
-            chosen_recipies[weekday] = recipe.to_dict()
+        chosen_recipies = []
+        for i in range(len(self.weekdays)):
+            recipe_file = random.choice(self.recipies[i])
+            chosen_recipies.append(recipe_file)
 
         return chosen_recipies
 
@@ -84,34 +86,27 @@ class Planner:
     #         created_sub_task = self.client.task.create(sub_task)
     #         self.client.task.make_subtask(created_sub_task, parent=created_main_task["id"])
 
-    # def upload_recipies(self, recipies):
-    #     day = datetime.datetime.now()
-    #     self._get_client()
-    #     dinners = self.client.get_by_fields(name="Dinners")
-    #     for recipe in recipies:
-    #         recipe_class = Recipe()
-    #         recipe_path = os.path.join(
-    #             os.path.dirname(__file__),
-    #             os.pardir,
-    #             "recipies",
-    #             recipe
-    #         )
-    #         recipe_class.load(recipe_path)
-    #         markdown = recipe_class.to_md()
+    def upload_recipies(self, recipies):
+        self._get_client()
+        days_ahead = 0 - datetime.datetime.now().weekday() + 7  # 7 because we want the next week
+        day = datetime.datetime.now() + datetime.timedelta(days=days_ahead)
+        dinners = self.client.get_by_fields(name="Dinners")
+        for src in recipies:
+            recipe = Recipe()
+            recipe.load(src)
 
-    #         day += datetime.timedelta(days=1)
-    #         start_time = day.replace(hour=16, minute=30)
-    #         end_time = day.replace(hour=17, minute=30)
+            start_time = day.replace(hour=16, minute=30)
+            end_time = day.replace(hour=17, minute=30)
 
-    #         task = self.client.task.builder(
-    #             title=recipe_class.title,
-    #             startDate=start_time,
-    #             dueDate=end_time,
-    #             content=markdown
-    #         )
+            task = self.client.task.builder(
+                title=recipe.title,
+                startDate=start_time,
+                dueDate=end_time,
+            )
 
-    #         created_task = self.client.task.create(task)
-    #         self.client.task.move(created_task, dinners["id"])
+            created_task = self.client.task.create(task)
+            self.client.task.move(created_task, dinners["id"])
+            day += datetime.timedelta(days=1)
 
 
     # def create_pdfs(self, recipies):
@@ -135,9 +130,7 @@ class Planner:
 if __name__ == "__main__":
     planner = Planner()
     my_recipies = planner.sample_recipies()
-    # ingredients = planner.get_ingredients(my_recipies)
-    print("Recipies:")
-    for weekday in my_recipies:
-        print(f"{weekday}: {my_recipies[weekday]['title']}")
+    print(my_recipies)
+    planner.upload_recipies(my_recipies)
     
 

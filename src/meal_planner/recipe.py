@@ -1,8 +1,8 @@
 import os
 import yaml
 
-from constants import ROOT_DIR
-from pdf_generator import create_recipe_pdf
+from meal_planner.constants import ROOT_DIR
+from meal_planner.pdf_generator import create_recipe_pdf
 
 class Recipe:
     def __init__(self):
