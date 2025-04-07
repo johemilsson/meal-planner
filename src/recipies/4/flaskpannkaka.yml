@@ -1,6 +1,35 @@
 title: "Fläskpannkaka"
 ingredients:
+  Fläskpannkaka:
+    - Bacon:
+        amount: 280
+        unit: g
+    - Mjöl:
+        amount: 4
+        unit: dl
+    - Grahamsmjöl:
+        amount: 1
+        unit: dl
+    - Mjölk:
+        amount: 10
+        unit: dl
+    - Ägg:
+        amount: 5
+        unit: st
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Rårörda lingon:
+        amount: 1
+        unit: dl
+
 instructions:
+  Fläskpannkaka:
+    - Sätt ugnen på 225 grader.
+    - Vispa ihop mjöl, grahamsmjöl, mjölk, ägg och salt i en bunke.
+    - Häll smeten i en ugnsform och lägg baconet ovanpå.
+    - Grädda i ugnen i ca 30 minuter eller tills pannkakan är gyllenbrun.
+    - Servera med rårörda lingon.
 time:
 servings: 4
-source:
+source: ""

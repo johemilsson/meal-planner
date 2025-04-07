@@ -17,11 +17,10 @@ for root, _, files in os.walk(
     recipe_list.extend([os.path.join(root, file) for file in files if file.endswith(".yml")])
 
 
-
 @pytest.mark.parametrize("recipe_file", recipe_list)
 def test_load_recipies_title(recipe_file):
     """
-    Test if the recipe loads correctly.
+    Test if the recipe has a title.
     """
     recipe = Recipe()
     recipe.load(recipe_file)
@@ -41,3 +40,15 @@ def test_load_recipies_title(recipe_file):
 
     # # Check if the recipe has a list of tags
     # assert isinstance(recipe.source, str)
+
+
+@pytest.mark.parametrize("recipe_file", recipe_list)
+def test_load_recipies_ingredients(recipe_file):
+    """
+    Test if the recipe has a list of ingredients.
+    """
+    recipe = Recipe()
+    recipe.load(recipe_file)
+
+    # Check if the recipe has a list of ingredients
+    assert isinstance(recipe.ingredients, dict)

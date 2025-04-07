@@ -1,6 +1,73 @@
 title: "Tacos"
 ingredients:
+  Tacofärs:
+    - Nötfärs:
+        amount: 500
+        unit: g
+    - Spiskummin:
+        amount: 1
+        unit: msk
+    - Paprikapulver:
+        amount: 1
+        unit: msk
+    - Anchochilipulver:
+        amount: 1
+        unit: tsk
+  Guacamole:
+    - Avokado:
+        amount: 2
+        unit: st
+    - Lime:
+        amount: 1
+        unit: st
+    - Olivolja:
+        amount: 1
+        unit: msk
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+  Tortillas:
+    - Tortillabröd:
+        amount: 8
+        unit: st
+    - Majs:
+        amount: 1
+        unit: burk
+    - Gurka:
+        amount: 0.5
+        unit: st
+    - Tomat:
+        amount: 1
+        unit: st
+    - Isbergssallad:
+        amount: 0.5
+        unit: st
+    - Riven ost:
+        amount: 200
+        unit: g
+    - Gräddfil:
+        amount: 1
+        unit: dl
+    - Tacosås:
+        amount: 1
+        unit: dl
+
 instructions:
-time:
+  Tacofärs:
+    - Stek nötfärsen i en panna tills den är genomstekt.
+    - Tillsätt spiskummin, paprikapulver och anchochilipulver. Rör om och låt steka i några minuter.
+  Aguacate:
+    - Mosa avokadon i en skål.
+    - Tillsätt limejuice, olivolja, salt och svartpeppar. Blanda väl.
+  Tortillas:
+    - Värm tortillabröden i ugn på 125 grader.
+    - Hacka grönsakerna.
+    - Fyll tortillabröden med tacofärs, guacamole, majs, hackade grönsaker, riven ost, gräddfil och tacosås.
+time: 
+  amount: 30
+  unit: min
 servings: 4
-source:
+source: ""

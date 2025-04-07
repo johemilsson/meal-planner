@@ -1,0 +1,42 @@
+name: Ugnsbakad lax med dill och citron
+ingredients:
+  Lax:
+    - laxfilé:
+        amount: 600
+        unit: g
+    - citron:
+        amount: 1
+        unit: st
+    - färsk Dill:
+        amount: 1
+        unit: knippe
+    - Olivolja:
+        amount: 1
+        unit: msk
+    - Salt: 
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+  Potatis:
+    - Potatis:
+        amount: 600
+        unit: g
+  Grönsaker:
+    - Gröna bönor:
+        amount: 200
+        unit: g
+
+instructions:
+  - Sätt ugnen på 175°C.
+  - Lägg laxfiléerna i en ugnsform, pressa över citronjuice och strö över dill, salt och peppar.
+  - Ringla över olivolja och baka i ugnen i ca 20 minuter.
+  - Koka potatisen mjuk.
+  - Koka bönorna lätt i saltat vatten.
+  - Servera laxen med potatis och gröna bönor.
+servings: 4
+source: "chatgpt.com"
+time:
+  amount: 30
+  unit: min
