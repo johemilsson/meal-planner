@@ -1,6 +1,55 @@
 title: "Indonesisk kycklinggryta"
 ingredients:
+  Kycklinggryta:
+    - Kycklingfilé:
+        amount: 600
+        unit: g
+    - Paprika:
+        amount: 1
+        unit: st
+    - Vispgrädde:
+        amount: 2
+        unit: dl
+    - Gul lök:
+        amount: 1
+        unit: st
+    - Vitlök:
+        amount: 2
+        unit: klyftor
+    - Curry:
+        amount: 2
+        unit: tsk
+    - Sambal oelek:
+        amount: 1
+        unit: tsk
+    - Mango chutney:
+        amount: 1
+        unit: dl
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+  Ris:
+    - Jasminris:
+        amount: 4
+        unit: dl
+    - Vatten:
+        amount: 8
+        unit: dl
+    - Salt:
+        amount: 1
+        unit: tsk
 instructions:
+  Kycklinggryta:
+    - Sätt ugnen på 225 grader.
+    - Skär kycklingfiléerna i bitar. Strimla paprikan och lägg över kycklingen.
+    - Blanda grädden med pressad vitlök, curry, sambal och mango chutney. Häll blandningen över kycklingen. Sätt in i ugnen tills kycklingen är klar, ca 20-30 minuter.
+  Ris:
+    - Koka ris enligt anvisning på förpackningen och servera till.
 time:
+  amount: 30
+  unit: min
 servings: 4
-source:
+source: "https://www.koket.se/indonesisk-kycklinggryta"

@@ -1,6 +1,54 @@
 title: "Pizza"
 ingredients:
+  Deg:
+    - Vetemjöl:
+        amount: 700
+        unit: g
+    - Vatten:
+        amount: 500
+        unit: g
+    - Jäst:
+        amount: 1
+        unit: tsk
+    - Olivolja:
+        amount: 2
+        unit: msk
+    - Salt:
+        amount: 2
+        unit: tsk
+  Topping:
+    - Tomatsås:
+        amount: 400g
+        unit: g
+    - Mozzarellaost:
+        amount: 400
+        unit: g
+    - Skinka:
+        amount: 300
+        unit: g
+    - Champinjoner:
+        amount: 400
+        unit: g
+    - Ruccola:
+        amount: 100
+        unit: g
 instructions:
-time:
+  Deg:
+    - Mät upp alla ingredienser med våg.
+    - Blanda ut jästen i vattnet.
+    - Häll ner mjölet och jästvattnet i en degblandare och kör degen på lågt varvtal i några minuter tills degen ser smidig ut och har "gått ihop".
+    - Häll ner saltet och arbeta degen på nytt tills saltet har gått in, då häller du ner olivoljan och låter den arbetas in på lågt varvtal i ca 2 minuter.
+    - Kör degen på högsta hastighet i degblandaren i 12 minuter. Stäng av degblandaren och låt degen vila i 10-15 minuter.
+    - Olja in en större plastlåda (godkänd för mat) med någon matsked olivolja och för över degen dit. Lyft degen i ”midjan” och forma den till en stor oval boll. Sätt på locket och låt degen stå i rumstemperatur i 1 timme.
+    - Dela upp degen i 11 lika stora delar samma dag som du ska baka pizzan. De ska väga ca 265 gram styck. Forma jämna bollar och lägg dem glest i en lätt oljad låda med lock. När du bakar ut degen ska den vara rumstempererad så den inte drar ihop sig.
+  Topping:
+    - Dela degen i fyra delar och kavla ut varje del till en rund pizza.
+    - Bred ut tomatsås på varje pizza.
+    - Lägg på mozzarellaost, skinka och champinjoner.
+    - Grädda i ugnen på 250 grader i ca 10-12 minuter.
+    - Toppa med ruccola innan servering.
+time: 
+  amount: 90
+  unit: min
 servings: 4
-source:
+source: ""

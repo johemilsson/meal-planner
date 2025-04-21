@@ -52,3 +52,15 @@ def test_load_recipies_ingredients(recipe_file):
 
     # Check if the recipe has a list of ingredients
     assert isinstance(recipe.ingredients, dict)
+
+
+@pytest.mark.parametrize("recipe_file", recipe_list)
+def test_load_recipies_instructions(recipe_file):
+    """
+    Test if the recipe has instructions.
+    """
+    recipe = Recipe()
+    recipe.load(recipe_file)
+
+    # # Check if the recipe has a list of instructions
+    assert isinstance(recipe.instructions, dict)
