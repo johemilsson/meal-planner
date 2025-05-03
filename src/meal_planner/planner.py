@@ -53,6 +53,22 @@ class Planner:
             chosen_recipies.append(recipe_file)
 
         return chosen_recipies
+    
+    def specify_recipies(self):
+        """
+        Specify the recipes to be used for the week.
+        """
+        chosen_recipies = []
+        for i in range(len(self.weekdays)):
+            print(f"Choose a recipe for {self.weekdays[i]}:")
+            for j, recipe in enumerate(self.recipies[i]):
+                print(f"{j}: {recipe}")
+            recipe_index = int(input(f"Choose a recipe for {self.weekdays[i]}: "))
+            print(f"You chose {self.recipies[i][recipe_index]} for {self.weekdays[i]}")
+            recipe_file = self.recipies[i][recipe_index]
+            chosen_recipies.append(recipe_file)
+
+        return chosen_recipies
 
     # def get_ingredients(self, recipies):
     #     ingredients = set()
@@ -102,6 +118,7 @@ class Planner:
                 title=recipe.title,
                 startDate=start_time,
                 dueDate=end_time,
+                content=recipe.source,
             )
 
             created_task = self.client.task.create(task)
@@ -129,7 +146,9 @@ class Planner:
 
 if __name__ == "__main__":
     planner = Planner()
-    my_recipies = planner.sample_recipies()
+    # my_recipies = planner.sample_recipies()
+
+    my_recipies = planner.specify_recipies()
     print(my_recipies)
     planner.upload_recipies(my_recipies)
     

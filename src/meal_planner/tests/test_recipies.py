@@ -63,4 +63,4 @@ def test_load_recipies_instructions(recipe_file):
     recipe.load(recipe_file)
 
     # # Check if the recipe has a list of instructions
-    assert isinstance(recipe.instructions, dict)
+    assert isinstance(recipe.instructions, dict) or isinstance(recipe.instructions, list)

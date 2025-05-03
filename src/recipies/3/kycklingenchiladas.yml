@@ -1,6 +1,60 @@
 title: "Kycklingenchiladas"
 ingredients:
+  Kycklingenchiladas:
+    - Kycklinglårfilé:
+        amount: 400
+        unit: g
+    - Gul lök: 
+        amount: 1
+        unit: st
+    - Vitlök:
+        amount: 2
+        unit: klyftor
+    - Chilifrukt:
+        amount: 1
+        unit: st
+    - Paprika:
+        amount: 1
+        unit: st
+    - Spiskummin:
+        amount: 1.5
+        unit: tsk
+    - Paprikapulver:
+        amount: 1.5
+        unit: tsk
+    - Torkad koriander:
+        amount: 1
+        unit: tsk
+    - Passerade tomater:
+        amount: 1
+        unit: dl
+    - Gräddfil:
+        amount: 2
+        unit: dl
+    - Svarta bönor:
+        amount: 400
+        unit: g
+    - Färsk Koriander:
+        amount: 1
+        unit: knippe
+    - Mozzarella:
+        amount: 200
+        unit: g
+    - Cheddarost:
+        amount: 3
+        unit: dl
+    - Tortillabröd:
+        amount: 8
+        unit: st
 instructions:
+  - Skär kycklingen i tärningar på en separat skärbräda.
+  - Hacka lök, vitlök, chili och paprika. Bryn kycklingen och tillsätt hackad lök, paprika, chili och paprika.
+  - Fräs tills löken och parikan är mjuka och fina. Tillsätt kryddorna och fortsätt fräsa.
+  - Slå på bönor och tomat, låt koka samman en kort stund. Krydda med salt.
+  - Vänd brödet i kycklingröran, fyll sedan varje bröd med kycklingröran i mitten, toppa med lite mozzarella och riven ost. Rulla ihop till en rulle och lägg i en ugnsfastform. Lägg alla rullar tätt intill varnada och toppa med ost.
+  - Grädda i ca 10 minuter på 225 grader, den ska få en gyllene färg. Servera tillsammans med gräddfil.
 time:
+  amount: 1
+  unit: h
 servings: 4
-source:
+source: "https://www.koket.se/mitt-kok/lisa-lemke/kycklingenchiladas"

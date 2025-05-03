@@ -1,0 +1,37 @@
+title: "Broccolisoppa"
+ingredients:
+  Broccolisoppa:
+    - Fryst broccoli:
+        amount: 425
+        unit: g
+    - Gul lök:
+        amount: 1
+        unit: st
+    - Potatis:
+        amount: 1
+        unit: st
+    - Grönsaksbuljong:
+        amount: 2
+        unit: st
+    - Vatten:
+        amount: 6
+        unit: dl
+    - Grädde:
+        amount: 1
+        unit: dl
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Peppar:
+        amount: 1
+        unit: krm
+instructions:
+  - Strimla löken och låt den svettas i en panna med olivolja på medelhög värme tills den blir mjuk och glansig. Häll ner i en större kastrull.
+  - Tillsätt broccoli, vatten, grönsaksbuljong och små tärningar av potatisen.
+  - Låt koka ca 6-7 min (tills potatisen är genomkokt).
+  - Ta fram stavmixern och mixa soppan slät. Tillsätt till sist matlagningsgrädde som får runda av soppan samt salta & peppra efter smak.
+time:
+  amount: 10
+  unit: min
+servings: 4
+source: "https://catarinakonig.elle.se/recept/godaste-broccolisoppan-pa-bara-10-min/"

@@ -1,6 +1,42 @@
 title: "Spenatsoppa"
 ingredients:
+  Soppa:
+    - Fryst spenat:
+        amount: 450
+        unit: g
+    - Gul lök:
+        amount: 1
+        unit: st
+    - Vitlök:
+        amount: 1
+        unit: klyftor
+    - Grönsaksbuljong:
+        amount: 2
+        unit: tärning
+    - Vatten:
+        amount: 5
+        unit: dl
+    - Vispgrädde:
+        amount: 3
+        unit: dl
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+  Ägg: 
+    - Ägg:
+        amount: 4
+        unit: st
 instructions:
+  - Koka äggen.
+  - Skala och finhacka lök och vitlök. Hetta upp smör i en rymlig kastrull. Fräs löken mjuk.
+  - Tillsätt spenat, vatten, grädde och smulad buljong. Koka upp och låt koka 6-8 min.
+  - Smaka av med salt och nymalen svartpeppar. Mixa ev. spenatsoppan lite slarvigt.
+  - Skala och halvera äggen. Toppa spenatsoppan med ägghalvor och servera med grovt bröd eller varma mackor!
 time:
+  amount: 20
+  unit: min
 servings: 4
-source:
+source: "https://www.arla.se/recept/spenatsoppa/"

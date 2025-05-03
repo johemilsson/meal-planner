@@ -1,6 +1,38 @@
 title: "Hel kyckling i ugn med ris"
 ingredients:
+  Kyckling:
+    - Hel kyckling:
+        amount: 1
+        unit: st
+    - Rosmarin:
+        amount: 1
+        unit: kvist
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 2
+        unit: krm
+  Apelsinglace:
+    - Apelsin:
+        amount: 1
+        unit: st
+    - Honung:
+        amount: 1
+        unit: msk
+    - Rosmarin:
+        amount: 1
+        unit: msk
 instructions:
+  - Salta och peppra kycklingen och lägg den i en ugnsform.
+  - Lägg kvistar av rosmarin i kycklingen. Fäst eventuellt ihop vid låren med tandpetare.
+  - Tillaga i intervallånga 180˚ och beräkna 1 – 1¼ timme från det att ugnen är varm. Alternativt använder du termometern inställd på 75 grader. Var i så fall noga med att sätta den i bröstfiléns tjockaste del.
+  - Blanda samman apelsinskal och saft med honung och rosmarin.
+  - Ta ut kycklingen ur ugnen, lägg över den på ett galler med en långpanna under och pensla med glacen (så långt hade vi kommit på bilden).
+  - Grilla kycklingen på maxgrill i ugnen 15–20 minuter tills den får fin färg runtom.
+  - Pensla gärna flera gånger under grillningen.
 time:
+  amount: 1.5
+  unit: h
 servings: 4
-source:
+source: "https://www.koket.se/tommy_myllymaki/varmratter/kyckling/hel_kyckling"
