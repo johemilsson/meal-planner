@@ -1,0 +1,49 @@
+title: "Kantarellpasta med parmesan"
+ingredients:
+  Pasta:
+    - Pasta:
+        amount: 300
+        unit: g
+    - Salt:
+        amount: 1
+        unit: tsk
+  Kantarellsås:
+    - Kantareller:
+        amount: 350
+        unit: g
+    - Gul lök:
+        amount: 2
+        unit: st
+    - Vitlök:
+        amount: 1
+        unit: klyftor
+    - Smör:
+        amount: 2
+        unit: msk
+    - Grädde:
+        amount: 4
+        unit: dl
+    - Parmesanost:
+        amount: 100
+        unit: g
+    - Persilja:
+        amount: 0.5
+        unit: kruka
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Peppar:
+        amount: 1
+        unit: krm
+instructions:
+  - Ansa och rensa kantarellerna.
+  - Koka pastan enligt anvisningen på förpackningen.
+  - Skala och skiva vitlök och schalottenlök.
+  - Stek kantarellerna i en torr stekpanna tills de blir torra och fina. Tillsätt smöret och löken och låt allt få fin färg.
+  - Tillsätt vinet och låt det koka in ett par minuter. Tillsätt grädde och låt sjuda några minuter. Vänd ner hälften av parmesanosten och låt den smälta. Smaka av med salt och peppar.
+  - Hacka persiljan och vänd ner i såsen. Servera kantarellsåsen med pastan och resten av parmesanosten.
+time:
+  amount: 45
+  unit: min
+servings: 4
+source: "https://www.ica.se/recept/kramig-kantarellpasta-med-parmesan-750034/"

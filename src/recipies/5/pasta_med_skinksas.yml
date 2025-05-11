@@ -1,6 +1,57 @@
 title: "Pasta med skinksås"
 ingredients:
+  Skinksås:
+    - Kokt skinka:
+        amount: 300
+        unit: g
+    - Gul lök: 
+        amount: 1
+        unit: st
+    - Vitlök:
+        amount: 1
+        unit: klyfta
+    - Krossade tomater:
+        amount: 400
+        unit: g
+    - Tomatpuré:
+        amount: 2
+        unit: msk
+    - Vatten:
+        amount: 1
+        unit: dl
+    - Hönsbuljong:
+        amount: 1
+        unit: tärning
+    - Oregano:
+        amount: 1
+        unit: tsk
+    - Basilika:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+    - Salt:
+        amount: 1
+        unit: tsk
+  Pasta:
+    - Pasta:
+        amount: 300
+        unit: g
 instructions:
+  Skinksås:
+    - Hacka löken och vitlöken.
+    - Fräs löken i en stekpanna med lite olja tills den är mjuk.
+    - Fräs tomatpurén i pannan i ca 1 minut.
+    - Tillsätt krossade tomater, vatten, hönsbuljong, oregano, och basilika.
+    - Låt såsen sjuda i ca 10-15 minuter.
+    - Lägg i skinkan.
+    
+  Pasta:
+    - Koka pastan enligt anvisningarna på förpackningen.
+    - Häll av vattnet och blanda pastan med skinksåsen.  
 time:
+  amount: 30
+  unit: min
 servings: 4
-source:
+source: "https://www.koket.se/pasta-med-skinksas"

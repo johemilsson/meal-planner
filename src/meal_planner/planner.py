@@ -146,9 +146,9 @@ class Planner:
 
 if __name__ == "__main__":
     planner = Planner()
-    # my_recipies = planner.sample_recipies()
+    my_recipies = planner.sample_recipies()
 
-    my_recipies = planner.specify_recipies()
+    #my_recipies = planner.specify_recipies()
     print(my_recipies)
     planner.upload_recipies(my_recipies)
     
