@@ -1,6 +1,48 @@
 title: "Tonfiskpasta"
 ingredients:
+  Tonfiskröra:
+    - Gul lök:
+        amount: 1
+        unit: st
+    - Vitlök:
+        amount: 2
+        unit: klyfta
+    - Olivolja:
+        amount: 2
+        unit: msk
+    - Tonfisk:
+        amount: 2
+        unit: burkar
+    - Grädde: 
+        amount: 2
+        unit: dl
+    - Creme fraiche:
+        amount: 2
+        unit: dl
+    - Hönsbuljong:
+        amount: 1
+        unit: tärning
+    - Salt: 
+        amount: 1
+        unit: tsk
+    - Peppar:
+        amount: 1
+        unit: krm
+    - Parmesanost:
+        amount: 50
+        unit: g
 instructions:
+  Tonfiskröra:
+    - Skala och finhacka lök och vitlök. Fräs löken i olivolja i en stekpanna, tillsätt vitlöken och fräs ytterligare 1 minut.
+    - Tillsätt tonfisken och låt den bli varm.
+    - Tillsätt grädde, creme fraiche och hönsbuljong. Låt koka upp.
+    - Smaka av med salt och peppar.
+  Pasta:
+    - Koka pastan enligt anvisningarna på förpackningen.
+    - Häll av vattnet och blanda pastan med tonfiskröran.
+    - Servera genast med riven parmesanost.
 time:
+  amount: 30
+  unit: min
 servings: 4
-source:
+source: "https://catarinakonig.elle.se/pasta/kramig-tonfiskpasta-1/"

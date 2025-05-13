@@ -1,6 +1,57 @@
 title: "Kycklingpasta"
 ingredients:
+  Kycklingröra:
+    - Kycklingfilé:
+        amount: 600
+        unit: g
+    - Gul lök:
+        amount: 1
+        unit: st
+    - Vitlök:
+        amount: 2
+        unit: klyftor
+    - Champinjoner:
+        amount: 250
+        unit: g
+    - Dijonsenap:
+        amount: 1
+        unit: tsk
+    - Japansk soja:
+        amount: 2
+        unit: msk
+    - Vetemjölk:
+        amount: 1
+        unit: msk
+    - Grädde:
+        amount: 5
+        unit: dl
+    - Mjölk:
+        amount: 1
+        unit: dl
+    - Parmesanost:
+        amount: 50
+        unit: g
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Peppar:
+        amount: 1
+        unit: tsk
+  Pasta:
+    - Pasta:
+        amount: 400
+        unit: g
 instructions:
+  Kycklingröra:
+    - Skala och finhacka lök och vitlök. Hacka champinjonerna. Skär kycklingen i strimlor.
+    - Hetta upp matfett i en stekpanna och stek löken tills den får färg. Vänd i kyckling och stek lite till. Tillsätt champinjoner och vitlök och fräs några minuter under omrörning.
+    - Strö över vetemjölet och vänd runt. Häll i grädde, mjölk och soja. Rör ner dijonsenap och salta och peppra.
+    - Koka upp under omrörning, sänk värmen och låt såsen sjuda långsamt utan lock i ca 10-12 minuter. Smaka av och se om det behövs mer av senap, soja, salt eller peppar.
+  Pasta:
+    - Koka pastan enligt anvisningarna på förpackningen. Häll av vattnet och blanda pastan med kycklingröran.
+    - Servera genast med riven parmesanost.
 time:
+    amount: 30
+    unit: min
 servings: 4
-source:
+source: "https://www.koket.se/kramig-kycklingpasta-med-svamp-och-dijonsenap"

@@ -1,38 +1,39 @@
 title: "Asiatisk morotsoppa"
 ingredients:
-  - Gul lök:
-    - amount: 1
-    - unit: st
-  - Vitlök:
-    - amount: 2
-    - unit: klyftor 
-  - Morötter:
-    - amount: 750
-    - unit: g
-  - Röd chilifrukt:
-    - amount: 1
-    - unit: st
-  - Ingefära:
-    - amount: 1
-    - unit: msk
-  - Grönsaksbuljong:
-    - amount: 2
-    - unit: tärning
-  - Kokosmjölk:
-    - amount: 500
-    - unit: ml
-  - Vatten: 
-    - amount: 5
-    - unit: dl
-  - Lime:
-    - amount: 0.5
-    - unit: st
-  - Salt:
-    - amount: 1
-    - unit: tsk
-  - Svartpeppar:
-    - amount: 1
-    - unit: krm
+  Morotssoppa:
+    - Gul lök:
+      - amount: 1
+      - unit: st
+    - Vitlök:
+      - amount: 2
+      - unit: klyftor 
+    - Morötter:
+      - amount: 750
+      - unit: g
+    - Röd chilifrukt:
+      - amount: 1
+      - unit: st
+    - Ingefära:
+      - amount: 1
+      - unit: msk
+    - Grönsaksbuljong:
+      - amount: 2
+      - unit: tärning
+    - Kokosmjölk:
+      - amount: 500
+      - unit: ml
+    - Vatten: 
+      - amount: 5
+      - unit: dl
+    - Lime:
+      - amount: 0.5
+      - unit: st
+    - Salt:
+      - amount: 1
+      - unit: tsk
+    - Svartpeppar:
+      - amount: 1
+      - unit: krm
 instructions:
   - Hacka lök, vitlök och chili (ta bort fröna om du vill ha en mildare soppa). Skala och dela ingefära i mindre bitar. Stek allt i en gryta på medelhög värme tills löken blivit glansig.
   - Skala och slanta morötter. Tillsätt i grytan tillsammans med kokosmjölk, buljongtärningar och limejuice. Fyll på med vatten tills allt täcks. Låt koka ihop tills morötterna är mjuka.
