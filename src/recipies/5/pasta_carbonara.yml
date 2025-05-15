@@ -1,6 +1,39 @@
 title: "Pasta carbonara"
 ingredients:
+  Pasta:
+    - Pasta:
+        amount: 500
+        unit: g
+  Carbonara:
+    - Bacon:
+        amount: 280
+        unit: g
+    - Ägg:
+        amount: 4
+        unit: st
+    - Parmesanost:
+        amount: 100
+        unit: g
+    - Grädde:
+        amount: 1
+        unit: dl
+    - Salt:
+        amount: 0.5
+        unit: tsk
+    - Svartpeppar:
+        amount: 2
+        unit: krm
 instructions:
+  Pasta:
+    - Koka pastan enligt anvisningarna på förpackningen.
+  Carbonara:
+    - Skär baconet i mindre bitar och stek i en stekpanna tills det är knaprigt. Ta bort från värmen.
+    - Vispa ihop ägg, parmesanost, grädde, salt och svartpeppar i en skål.
+    - Häll av pastan och spara lite av pastavattnet.
+    - Vänd ner den äggblandningen och det stekta baconet i den varma pastan.
+    - Servera genast med extra parmesanost om så önskas.
 time:
+  amount: 20
+  unit: min
 servings: 4
-source:
+source: "https://www.koket.se/klassisk-spaghetti-carbonara"

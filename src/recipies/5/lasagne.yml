@@ -1,6 +1,99 @@
 title: "Lasagne"
 ingredients:
+  Köttfärssås:
+    - Köttfärs:
+        amount: 300
+        unit: g
+    - Gul lök:
+        amount: 1
+        unit: st
+    - Vitlök:
+        amount: 2
+        unit: klyfta
+    - Morot:
+        amount: 0.5
+        unit: st
+    - Krossade tomater:
+        amount: 400
+        unit: g
+    - Tomatpuré:
+        amount: 2
+        unit: msk
+    - Oregano:
+        amount: 1
+        unit: tsk
+    - Röd chilipeppar:
+        amount: 0.5
+        unit: st
+    - Olivolja:
+        amount: 4
+        unit: msk
+    - Blekselleri:
+        amount: 1
+        unit: st
+    - Vitt vin:
+        amount: 1
+        unit: dl
+    - Vatten:
+        amount: 1
+        unit: dl
+    - Köttbuljong:
+        amount: 1
+        unit: tärning
+    - Lagerblad:
+        amount: 1
+        unit: st
+    - Timjan:
+        amount: 1
+        unit: tsk
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Peppar:
+        amount: 1
+        unit: krm
+  Ostsås:
+    - Smör:
+        amount: 50
+        unit: g
+    - Mjölk:
+        amount: 8
+        unit: dl
+    - Vetemjöl:
+        amount: 4
+        unit: msk
+    - Mozzarellaost:
+        amount: 100
+        unit: g
+    - Parmesanost:
+        amount: 100
+        unit: g
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Peppar:
+        amount: 1
+        unit: krm
+  Pasta:
+    - Lasagneplattor:
+        amount: 12
+        unit: st
+
 instructions:
+  Köttfärssås:
+    - Bryn köttfärsen i olivolja i en stor gryta, fräs till allt vattnet kokat bort.
+    - Hacka lök, vitlök, morot och blekselleri. Tillsätt grönsakerna i grytan och fräs i några minuter.
+    - Tillsätt vinet och låt koka bort.
+    - Tillsätt krossade tomater, tomatpuré, oregano, chilipeppar, vatten, buljongtärning, lagerblad, timjan, salt och peppar. Låt sjuda i 30 minuter.
+  Ostsås:
+    - Smält smöret i en kastrull. Vispa ner mjölet och späd med mjölken under omrörning.
+    - Låt såsen koka upp och tjockna. Tillsätt mozzarellaost och parmesanost. Smaka av med salt och peppar.
+  Montering:
+    - Varva köttfärssås, ostsås och lasagneplattor i en ugnsform. Avsluta med ostsås.
+    - Gratinera i ugnen på 200 grader i 20-30 minuter.  
+
 time:
+  amount: 60
+  unit: min
 servings: 4
-source:
+source: "https://www.matbibeln.se/recept/markus-aujalays-lasagne-tar-natet-med-storm-en-titt-pa-speciella-ingrediensen-far-smaklokarna-att-jubla/"

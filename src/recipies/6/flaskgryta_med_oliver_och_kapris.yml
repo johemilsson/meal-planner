@@ -1,0 +1,61 @@
+title: "Fläskgryta med oliver och kapris"
+ingredients:
+  Fläskgryta:
+    - Fläskytterfilé:
+        amount: 600
+        unit: g
+    - Vitlölk:
+        amount: 1
+        unit: klyftor
+    - Vitt vin:
+        amount: 1
+        unit: dl
+    - Dijonsenap:
+        amount: 1
+        unit: msk
+    - Kapris:
+        amount: 0.5
+        unit: dl
+    - Gröna oliver:
+        amount: 100
+        unit: g
+    - Vispgrädde:
+        amount: 2
+        unit: dl
+    - Färsk bladpersilja:
+        amount: 2
+        unit: dl
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:  
+        amount: 1
+        unit: krm
+  Ris:
+    - Ris:
+        amount: 4
+        unit: dl
+    - Vatten:
+        amount: 8
+        unit: dl
+    - Salt:
+        amount: 1
+        unit: tsk
+instructions:
+  Fläskgryta:
+    - Skär fläskytterfilén i bitar, salta och peppra.
+    - Bryn köttet i en stekpanna med lite olja.
+    - Tillsätt vitlök och smör och ös köttet.
+    - Plocka bort vitlöken och tillsätt vitt vin, senap, kapris oliver och grädde.
+    - Låt koka ihop snabbt och tillsätt eventuellt mer grädde.
+    - Smaka av med salt och svartpeppar.
+    - Strö över hackad persilja innan servering.
+  Ris:
+    - Skölj riset i kallt vatten.
+    - Tillsätt vatten och koka enligt anvisningarna på förpackningen.
+    - Låt riset stå i 5 minuter efter kokning innan servering.
+time:
+  amount: 35
+  unit: min
+servings: 4
+source: "https://www.koket.se/flaskfilegryta-med-oliver-och-kapris"

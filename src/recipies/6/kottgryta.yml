@@ -1,6 +1,73 @@
-title: "Köttgryta"
+title: "Dominikansk köttgryta"
 ingredients:
+  Köttgryta:
+    - Nötkött:
+        amount: 1
+        unit: kg
+    - Vitlök:
+        amount: 3
+        unit: klyftor
+    - Gul lök:
+        amount: 1
+        unit: st
+    - Grön paprika:
+        amount: 1
+        unit: st
+    - Koriander:
+        amount: 1
+        unit: msk
+    - Citron:
+        amount: 1
+        unit: st
+    - Vinäger:
+        amount: 3
+        unit: msk
+    - Gröna oliver:
+        amount: 6
+        unit: st
+    - Farinsocker:
+        amount: 2
+        unit: msk
+    - Olivolja:
+        amount: 5
+        unit: msk
+    - Vatten:
+        amount: 5
+        unit: dl
+    - Buljongtärning:
+        amount: 2
+        unit: st
+    - Tomatpuré:
+        amount: 1
+        unit: msk
+    - Salt:
+        amount: 1
+        unit: tsk
+    - Svartpeppar:
+        amount: 1
+        unit: krm
+  Ris:
+    - Ris:
+        amount: 4
+        unit: dl
+    - Vatten:
+        amount: 8
+        unit: dl
+    - Salt:
+        amount: 1
+        unit: tsk
 instructions:
+  Marinad:
+    - Krossa vitlök, 1/3 paprika och koriander i en mortel. Skär köttet i ca 1-1,5 cm bitar. Tvätta det skurna köttet med vatten. Häll köttet i en skål och blanda i vinäger, pressad citron, salt, peppar, oregano, oliver och allt ifrån morteln. Rör om. Låt gärna stå ett tag om möjligt.
+  Köttgryta:
+    - Skär resten av paprikan och löken i långa tunna strimlor. Täck botten på en kastrull med olja. Lägg i farinsocker och när sockret är smält och börjar bli bränt häll köttet lite i taget. Var försiktig så att du inte bränner dig. Rör om köttet så alla sidor får färg.
+    - Häll i resten av marinaden och häll i mycket vatten, ca 5 dl. Lägg i buljongtärningarna, löken och paprikan och låt köttet koka på hög värme tills köttet blir mört. Koka bort nästan allt vatten och sänk värmen. Häll i tomatpurén, stek sky och kött under några minuter. Rör om hela tiden så inget fastnar eller bränns.
+    - Häll sedan i lite vatten så att såsen blir lite lösare. Låt det koka upp och ta sedan kastrullen från plattan. Lägg på locket så att inte skyn dunstar bort.
+  Ris:
+    - Skölj riset i kallt vatten.
+    - Koka enligt anvisningarna på förpackningen.
 time:
+  amount: 60
+  unit: min
 servings: 4
-source:
+source: "https://www.koket.se/halv-atta-hos-mig/elisa---gran-canaria/dominikansk-kottgryta-med-ris-och-friterad-banan-med-kanel"

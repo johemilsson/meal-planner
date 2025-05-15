@@ -1,6 +1,30 @@
 title: "Varma mackor"
 ingredients:
+  Mackor:
+    - Bröd:
+        amount: 8
+        unit: skivor
+    - Skinka:
+        amount: 200
+        unit: g
+    - Ost:
+        amount: 200
+        unit: g
+    - Tomat:
+        amount: 1
+        unit: st
+    - Smör:
+        amount: 50
+        unit: g
 instructions:
+  Mackor:
+    - Sätt ugnen på 200 grader.
+    - Lägg brödskivorna på en plåt.
+    - Bred smör på bröden.
+    - Lägg på skinka, ost och skivad tomat.
+    - Gratinera i ugnen i ca 10 minuter eller tills osten smält och fått fin färg.
 time:
+  amount: 20
+  unit: min
 servings: 4
-source:
+source: "Eget recepet"
