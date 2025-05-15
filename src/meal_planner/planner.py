@@ -70,37 +70,31 @@ class Planner:
 
         return chosen_recipies
 
-    # def get_ingredients(self, recipies):
-    #     ingredients = set()
-    #     for recipe in recipies:
-    #         recipe_class = Recipe()
-    #         recipe_path = os.path.join(
-    #             os.path.dirname(__file__),
-    #             os.pardir,
-    #             "recipies",
-    #             recipe
-    #         )
-    #         recipe_class.load(recipe_path)
-    #         ingredients.update(recipe_class.get_ingredients()) # TODO: Sum amount for each ingredient
+    def get_ingredients(self, recipies):
+        ingredients = set()
+        for recipe in recipies:
+            recipe_class = Recipe()
+            recipe_class.load(recipe)
+            ingredients.update(recipe_class.get_ingredients()) # TODO: Sum amount for each ingredient
 
-    #     return ingredients
+        return ingredients
 
-    # def upload_ingredients(self, ingredients):
-    #     self._get_client()
-    #     tomorrow = datetime.datetime.now() + datetime.timedelta(days=1)
-    #     start_time = tomorrow.replace(hour=17, minute=0)
-    #     end_time = tomorrow.replace(hour=22, minute=0)
+    def upload_ingredients(self, ingredients):
+        self._get_client()
+        tomorrow = datetime.datetime.now() + datetime.timedelta(days=1)
+        start_time = tomorrow.replace(hour=17, minute=0)
+        end_time = tomorrow.replace(hour=22, minute=0)
 
-    #     main_task = self.client.task.builder(
-    #         title=f"Shopping list",
-    #         startDate=start_time,
-    #         dueDate=end_time,
-    #     )
-    #     created_main_task = self.client.task.create(main_task)
-    #     for ingredient in ingredients:
-    #         sub_task = self.client.task.builder(title=ingredient)
-    #         created_sub_task = self.client.task.create(sub_task)
-    #         self.client.task.make_subtask(created_sub_task, parent=created_main_task["id"])
+        main_task = self.client.task.builder(
+            title=f"Shopping list",
+            startDate=start_time,
+            dueDate=end_time,
+        )
+        created_main_task = self.client.task.create(main_task)
+        for ingredient in ingredients:
+            sub_task = self.client.task.builder(title=ingredient)
+            created_sub_task = self.client.task.create(sub_task)
+            self.client.task.make_subtask(created_sub_task, parent=created_main_task["id"])
 
     def upload_recipies(self, recipies):
         self._get_client()
@@ -147,9 +141,9 @@ class Planner:
 if __name__ == "__main__":
     planner = Planner()
     my_recipies = planner.sample_recipies()
-
+    ingredients = planner.get_ingredients(my_recipies)
     #my_recipies = planner.specify_recipies()
     print(my_recipies)
+    print(ingredients)
     planner.upload_recipies(my_recipies)
-    
-
+    planner.upload_ingredients(ingredients)

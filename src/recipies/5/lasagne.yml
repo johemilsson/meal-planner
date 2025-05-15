@@ -49,7 +49,7 @@ ingredients:
     - Salt:
         amount: 1
         unit: tsk
-    - Peppar:
+    - Svartpeppar:
         amount: 1
         unit: krm
   Ostsås:
@@ -71,7 +71,7 @@ ingredients:
     - Salt:
         amount: 1
         unit: tsk
-    - Peppar:
+    - Svartpeppar:
         amount: 1
         unit: krm
   Pasta:

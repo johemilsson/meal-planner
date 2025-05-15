@@ -6,13 +6,12 @@ from meal_planner.pdf_generator import create_recipe_pdf
 
 class Recipe:
     def __init__(self):
-        self.title: str = None
-        self.ingredients: set = None
-        self.instructions: list = None
+        self.title = None
+        self.ingredients = {}
+        self.instructions = None
         self.time = None
-        self.servings: int = None
-        self.source: str = None
-
+        self.servings = None
+        self.source = None
 
     def load(self, src):
         with open(src, 'r') as fid:
