@@ -7,10 +7,15 @@ import datetime
 
 from recipe import Recipe
 from ticktick_api import get_client
+from meal_planner import BASIC_INGREDIENTS_FILE
 
 class Planner:
-    def __init__(self):
-        self.client = None
+    def __init__(self, debug=False):
+        if debug:
+            self.client = None
+        else:
+            self.client = get_client()
+        
         self.weekdays = [
             "monday",
             "tuesday",
@@ -41,10 +46,6 @@ class Planner:
                 
         
         return recipies
-
-    def _get_client(self):
-        if not self.client:
-            self.client = get_client()
 
     def sample_recipies(self):
         chosen_recipies = []
@@ -77,10 +78,15 @@ class Planner:
             recipe_class.load(recipe)
             ingredients.update(recipe_class.get_ingredients()) # TODO: Sum amount for each ingredient
 
+        with open(BASIC_INGREDIENTS_FILE, "r") as f:
+            for ingredient in f:
+                ingredient = ingredient.strip()
+                if ingredient in ingredients:
+                    ingredients.remove(ingredient)
+
         return ingredients
 
     def upload_ingredients(self, ingredients):
-        self._get_client()
         tomorrow = datetime.datetime.now() + datetime.timedelta(days=1)
         start_time = tomorrow.replace(hour=17, minute=0)
         end_time = tomorrow.replace(hour=22, minute=0)
@@ -97,7 +103,6 @@ class Planner:
             self.client.task.make_subtask(created_sub_task, parent=created_main_task["id"])
 
     def upload_recipies(self, recipies):
-        self._get_client()
         days_ahead = 0 - datetime.datetime.now().weekday() + 7  # 7 because we want the next week
         day = datetime.datetime.now() + datetime.timedelta(days=days_ahead)
         dinners = self.client.get_by_fields(name="Dinners")
@@ -139,7 +144,7 @@ class Planner:
 
 
 if __name__ == "__main__":
-    planner = Planner()
+    planner = Planner(debug=False)
     my_recipies = planner.sample_recipies()
     ingredients = planner.get_ingredients(my_recipies)
     #my_recipies = planner.specify_recipies()

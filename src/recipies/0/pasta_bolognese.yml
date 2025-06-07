@@ -35,7 +35,7 @@ ingredients:
         amount:
         unit:
   Pasta:
-    - Spaghetti:
+    - Pasta:
         amount: 300
         unit: g
 
