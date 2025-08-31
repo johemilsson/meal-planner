@@ -10,12 +10,17 @@ from ticktick_api import get_client
 from meal_planner import BASIC_INGREDIENTS_FILE
 
 class Planner:
-    def __init__(self, debug=False):
+    def __init__(self, start_day=None, debug=False):
         if debug:
             self.client = None
         else:
             self.client = get_client()
         
+        if start_day is None:
+            self.start_day = datetime.datetime.now()
+        else:
+            self.start_day = start_day
+
         self.weekdays = [
             "monday",
             "tuesday",
@@ -25,6 +30,7 @@ class Planner:
             "saturday",
             "sunday",
             ]
+        
         self.recipies = self._get_recipies()
 
 
@@ -87,24 +93,24 @@ class Planner:
         return ingredients
 
     def upload_ingredients(self, ingredients):
-        tomorrow = datetime.datetime.now() + datetime.timedelta(days=1)
-        start_time = tomorrow.replace(hour=17, minute=0)
-        end_time = tomorrow.replace(hour=22, minute=0)
+        day = self.start_day
+        start_time = day.replace(hour=17, minute=0)
+        end_time = day.replace(hour=22, minute=0)
 
-        main_task = self.client.task.builder(
-            title=f"Shopping list",
-            startDate=start_time,
-            dueDate=end_time,
-        )
-        created_main_task = self.client.task.create(main_task)
+        task_list = self.client.get_by_fields(name="Shopping")
+        
         for ingredient in ingredients:
-            sub_task = self.client.task.builder(title=ingredient)
-            created_sub_task = self.client.task.create(sub_task)
-            self.client.task.make_subtask(created_sub_task, parent=created_main_task["id"])
+            task = self.client.task.builder(
+                title=ingredient,
+                startDate=start_time,
+                dueDate=end_time,
+            )
+
+            created_task = self.client.task.create(task)
+            self.client.task.move(created_task, task_list["id"])
 
     def upload_recipies(self, recipies):
-        days_ahead = 0 - datetime.datetime.now().weekday() + 7  # 7 because we want the next week
-        day = datetime.datetime.now() + datetime.timedelta(days=days_ahead)
+        day = self.start_day 
         dinners = self.client.get_by_fields(name="Dinners")
         for src in recipies:
             recipe = Recipe()
@@ -144,7 +150,8 @@ class Planner:
 
 
 if __name__ == "__main__":
-    planner = Planner(debug=False)
+    start_day = datetime.datetime.now() + datetime.timedelta(days=1)    
+    planner = Planner(start_day=start_day)
     my_recipies = planner.sample_recipies()
     ingredients = planner.get_ingredients(my_recipies)
     #my_recipies = planner.specify_recipies()

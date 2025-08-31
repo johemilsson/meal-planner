@@ -14,7 +14,7 @@ ingredients:
     - Parmesanost:
         amount: 100
         unit: g
-    - Grädde:
+    - Vispgrädde:
         amount: 1
         unit: dl
     - Salt:

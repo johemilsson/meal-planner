@@ -23,7 +23,7 @@ ingredients:
     - Fiskfond:
         amount: 0.5
         unit: msk
-    - Grädde:
+    - Vispgrädde:
         amount: 1.5
         unit: dl
     - Dill:
@@ -41,7 +41,7 @@ ingredients:
     - Sal:
         amount:
         unit:
-    - Pimienta:
+    - Svartpeppar:
         amount:
         unit:
 

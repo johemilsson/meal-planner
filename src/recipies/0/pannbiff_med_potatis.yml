@@ -42,7 +42,7 @@ ingredients:
     - Oxfond:
         amount: 1.5
         unit: msk
-    - Grädde:
+    - Vispgrädde:
         amount: 3
         unit: msk
     - Soja:

@@ -4,10 +4,10 @@ ingredients:
     - laxfilé:
         amount: 600
         unit: g
-    - citron:
+    - Citron:
         amount: 1
         unit: st
-    - färsk Dill:
+    - Färsk dill:
         amount: 1
         unit: knippe
     - Olivolja:
@@ -24,7 +24,7 @@ ingredients:
         amount: 600
         unit: g
   Grönsaker:
-    - Gröna bönor:
+    - Gröna ärtor:
         amount: 200
         unit: g
 
@@ -33,7 +33,7 @@ instructions:
   - Lägg laxfiléerna i en ugnsform, pressa över citronjuice och strö över dill, salt och peppar.
   - Ringla över olivolja och baka i ugnen i ca 20 minuter.
   - Koka potatisen mjuk.
-  - Koka bönorna lätt i saltat vatten.
+  - Koka ärtorna lätt i saltat vatten.
   - Servera laxen med potatis och gröna bönor.
 servings: 4
 source: "chatgpt.com"
