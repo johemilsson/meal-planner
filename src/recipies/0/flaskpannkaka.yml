@@ -4,7 +4,7 @@ ingredients:
     - Bacon:
         amount: 280
         unit: g
-    - Vetemjöl
+    - Vetemjöl:
         amount: 4
         unit: dl
     - Grahamsmjöl:

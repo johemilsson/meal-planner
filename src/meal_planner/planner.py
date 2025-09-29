@@ -10,7 +10,7 @@ from ticktick_api import get_client
 from meal_planner import BASIC_INGREDIENTS_FILE
 
 class Planner:
-    def __init__(self, start_day=None, debug=False):
+    def __init__(self, start_day=None, end_day=None, debug=False):
         if debug:
             self.client = None
         else:
@@ -20,6 +20,11 @@ class Planner:
             self.start_day = datetime.datetime.now()
         else:
             self.start_day = start_day
+        
+        if end_day is None:
+            self.end_day = self.start_day + datetime.timedelta(days=6)
+        else:
+            self.end_day = end_day
 
         self.weekdays = [
             "monday",
@@ -55,9 +60,17 @@ class Planner:
 
     def sample_recipies(self):
         chosen_recipies = []
-        for i in range(len(self.weekdays)):
+        i = self.start_day.weekday()
+        day = self.start_day
+        while day <= self.end_day:
             recipe_file = random.choice(self.recipies[i])
             chosen_recipies.append(recipe_file)
+
+            i += 1
+            if i == len(self.weekdays):
+                i = 0
+            
+            day += datetime.timedelta(days=1)
 
         return chosen_recipies
     
@@ -150,12 +163,13 @@ class Planner:
 
 
 if __name__ == "__main__":
-    start_day = datetime.datetime.now() + datetime.timedelta(days=1)    
-    planner = Planner(start_day=start_day)
+    start_day = datetime.datetime.now() + datetime.timedelta(days=1)
+    end_day = start_day + datetime.timedelta(days=6)  
+    planner = Planner(start_day=start_day, end_day=end_day)
     my_recipies = planner.sample_recipies()
     ingredients = planner.get_ingredients(my_recipies)
     #my_recipies = planner.specify_recipies()
     print(my_recipies)
-    print(ingredients)
+    #print(ingredients)
     planner.upload_recipies(my_recipies)
     planner.upload_ingredients(ingredients)
